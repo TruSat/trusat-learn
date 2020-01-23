@@ -22,18 +22,17 @@ const users = [
 
 const siteConfig = {
   title: "TruSat", // Title for your website.
-  tagline: "A website for testing",
-  url: "https://your-docusaurus-test-site.com", // Your website URL
+  tagline: "Open Source Space Sustainability",
+  url: "", // Your website URL
   baseUrl: "/", // Base URL for your project */
-  editUrl:
-    "https://github.com/facebook/create-react-app/edit/master/docusaurus/docs/",
+  editUrl: "https://github.com/johngribbin/trusat-learn/tree/master/docs/",
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: "test-site",
-  organizationName: "facebook",
+  projectName: "TruSat Learn",
+  organizationName: "TruSat",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
