@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "Learn": ["doc1", "doc2", "doc3", "doc4", "doc5"],
+    "Second Category": [""],
+    "Third Category": [""]
+  },
+  "docs-other": {
+    "First Category": ["", ""]
+  }
+}
