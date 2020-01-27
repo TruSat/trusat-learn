@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: welcome
 title: Welcome to the sport of satellite tracking
 sidebar_label: Welcome
 ---

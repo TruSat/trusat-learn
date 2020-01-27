@@ -1,5 +1,5 @@
 ---
-id: doc4
+id: level-3
 title: Level 3 - Timing a satellite
 sidebar_label: Level 3
 ---

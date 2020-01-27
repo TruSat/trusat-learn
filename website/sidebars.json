@@ -1,10 +1,11 @@
 {
   "docs": {
-    "Learn": ["doc1", "doc2", "doc3", "doc4", "doc5"],
-    "Second Category": [""],
-    "Third Category": [""]
+    "High-level Guide": ["welcome", "level-1", "level-2", "level-3", "level-4"],
+    "Tracking a Satellite with browser tools": ["browser-tools-1"],
+    "Build a homemade tracking mount": [""],
+    "List of helpful resources": [""],
+    "Into to photographing sats": [""],
+    "Intro to satellite tracking software": [""]
   },
-  "docs-other": {
-    "First Category": ["", ""]
-  }
+  "docs-other": { "Full Details": ["prize-campaign-1"] }
 }

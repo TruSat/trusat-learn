@@ -1,5 +1,5 @@
 ---
-id: doc2
+id: level-1
 title: Level 1 - Spotting a Satellite in the Night Sky
 sidebar_label: Level 1
 ---

@@ -1,5 +1,5 @@
 ---
-id: doc3
+id: level-2
 title: Level 2 - Finding a Specific Satellite
 sidebar_label: Level 2
 ---
