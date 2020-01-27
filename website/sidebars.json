@@ -1,11 +1,31 @@
 {
   "docs": {
-    "High-level Guide": ["welcome", "level-1", "level-2", "level-3", "level-4"],
-    "Tracking a Satellite with browser tools": ["browser-tools-1"],
-    "Build a homemade tracking mount": [""],
-    "List of helpful resources": [""],
-    "Into to photographing sats": [""],
-    "Intro to satellite tracking software": [""]
+    "TruSat Community": ["start-here", "contributing", "updating", "authors"],
+    "Prize Campaign": ["prize-campaign"],
+    "Satellite Tracking Guide": [
+      "high-level-guide",
+      "browser-tools",
+      "homemade-tracking-mount",
+      "helpful-resources",
+      "photographing-sats",
+      "sat-tracking-software",
+      "mobile-apps",
+      "orbital-mechanics",
+      "data-formats",
+      "star-charts-celestial-coordinates"
+    ],
+    "Project Background": [
+      "overview",
+      "space-sustainability",
+      "proof-of-sat",
+      "governance",
+      "trusat-charter",
+      "roadmap",
+      "earth-space-program",
+      "consensys",
+      "FAQ"
+    ],
+    "The TruSat App": ["your-account", "station-locations"]
   },
-  "docs-other": { "Full Details": ["prize-campaign-1"] }
+  "docs-other": {}
 }
