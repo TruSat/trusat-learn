@@ -59,9 +59,9 @@ The International Space Station (ISS) is a good satellite to start with because 
 
 ## Level 3
 
-This is the narrated, screen recorded video for using Heavens Above
+This is the narrated, screen recorded video for using Heavens Above:
 
-![Heavens above guide](https://www.youtube.com/watch?v=DmSL1MweU7M)
+[![Heavens Above tutorial](http://img.youtube.com/vi/DmSL1MweU7M/0.jpg)](http://www.youtube.com/watch?v=DmSL1MweU7M)
 
 ## Level 4
 
