@@ -27,7 +27,9 @@ The camera electronics are more sensitive than your eyes, and even with a short 
 
 To determine the best place and time to point your camera, see this explainer video on how to use the [Heavens-Above](https://www.heavens-above.com/) website to predict visible satellite passes for your location:
 
-[![Heavens Above tutorial screenshot](https://trusat-learn-assets.s3.amazonaws.com/heavens-above-tutorial-screenshot.jpg)](https://www.youtube.com/watch?v=DmSL1MweU7M&feature=emb_title)
+[![Heavens Above tutorial](http://img.youtube.com/vi/DmSL1MweU7M/0.jpg)](http://www.youtube.com/watch?v=DmSL1MweU7M)
+
+<!-- [![Heavens Above tutorial screenshot](https://trusat-learn-assets.s3.amazonaws.com/heavens-above-tutorial-screenshot.jpg)](https://www.youtube.com/watch?v=DmSL1MweU7M&feature=emb_title) -->
 
 You will need to experiment with your camera settings, such as setting exposure durations long enough to capture enough stars to serve as a position reference for any satellite arcs you may capture. A quick way to determine if your images are good for satellite tracking is to submit a picture to [nova.astrometry.net](http://nova.astrometry.net/). If the site is able to compute the precise direction of your camera, you are on your way to satellite observing!
 
