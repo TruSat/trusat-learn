@@ -6,8 +6,6 @@ sidebar_label: High-level guide
 
 Spotting satellites in the night sky can be a relaxing, rewarding activity. The serenity of contemplating the night sky, the thrill of catching a satellite passing by at 28,000kph.
 
-![TruSat banner](https://trusat-assets.s3.amazonaws.com/readme-banner.jpg)
-
 ## What does Satellite Tracking Involve?
 
 1. The time at which you observe the satellite cross an imaginary line between two known stars

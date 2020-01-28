@@ -4,4 +4,4 @@ title: Start here
 sidebar_label: Start here
 ---
 
-Start here content
+![TruSat banner](https://trusat-assets.s3.amazonaws.com/readme-banner.jpg)
