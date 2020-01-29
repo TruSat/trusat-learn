@@ -55,34 +55,57 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl("users.html", this.props.language)}>
-              User Showcase
-            </a>
             <a
-              href="https://stackoverflow.com/questions/tagged/"
+              href="https://discuss.trusat.org/"
               target="_blank"
               rel="noreferrer noopener"
             >
-              Stack Overflow
+              Forum
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/Consensys_Space"
               target="_blank"
               rel="noreferrer noopener"
             >
               Twitter
             </a>
+            <a
+              href="https://www.instagram.com/consensys_space/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://www.consensys.space"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              ConsenSys Space
+            </a>
           </div>
           <div>
             <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a
+              href="https://trusat.org"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              TruSat
+            </a>
+            {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
+            <a
+              href="https://github.com/consensys-space"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              GitHub
+            </a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
+              data-count-href="/consensys-space"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
               aria-label="Star this project on GitHub"
@@ -115,7 +138,7 @@ class Footer extends React.Component {
           </div>
         </section>
 
-        <a
+        {/* <a
           href="https://opensource.facebook.com/"
           target="_blank"
           rel="noreferrer noopener"
@@ -127,7 +150,7 @@ class Footer extends React.Component {
             width="170"
             height="45"
           />
-        </a>
+        </a> */}
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
