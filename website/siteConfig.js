@@ -39,7 +39,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: "start-here", label: "Learn" }
+    { doc: "start-here", label: "Get Started" }
     // { doc: "doc10", label: "API" },
     // { page: "help", label: "Help" },
     // { blog: true, label: "Blog" }
@@ -74,7 +74,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} ConsenSys Space`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -91,11 +91,11 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: "img/undraw_online.svg",
-  twitterImage: "img/undraw_tweetstorm.svg"
+  twitterImage: "img/undraw_tweetstorm.svg",
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
