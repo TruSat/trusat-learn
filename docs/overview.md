@@ -4,7 +4,7 @@ title: Overview
 sidebar_label: Overview
 ---
 
-### I.Introduction and Overview
+## I.Introduction and Overview
 
 TruSat is an experimental open source, open-sensor system for creating a trusted record of satellite orbits.TruSat isprimarilydesigned to enablethe assessmentof satellite operations in light ofspace sustainability standards. Space sustainability is about preserving the use of outer space, and all of its socioeconomic benefits, for present and future generations.1As a practical matter, this means mitigating orbital debris, which can render orbits around Earth unusable for generations. Amid projections of a tenfold or more increase in the number of satellites in low Earth orbit (“LEO”), avoiding collisions between satellites is an increasingly urgent focus for space sustainability, and enlightened satellite operators, governments, and civil society are working to defineguidelines, best practices, andstandards for sustainable orbital operations. A crucial gap in these efforts is the absence of an open, widely-trusted source of data about the orbital position of satellites accessible for use in assessing compliance withthesesustainability standards.
 
