@@ -60,13 +60,28 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_void.svg`} />
+        {/* <Logo img_src={`${baseUrl}img/undraw_void.svg`} /> */}
+        <img
+          src="https://trusat-assets.s3.amazonaws.com/readme-banner.jpg"
+          alt="TruSat banner"
+        ></img>
         <div className="inner">
-          <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
-          <p>BRIEF DESCRIPTION OF TRUSAT "LEARN" GOES HERE...</p>
+          {/* <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} /> */}
+
           <PromoSection>
+            <p>
+              <strong>
+                <a href="https://trusat.org">TruSat</a>
+              </strong>{" "}
+              is a citizen-powered, open source system for creating a
+              globally-accessible, trusted record of satellite orbital
+              positions. TruSat is primarily designed to enable the assessment
+              of satellite operations in the context of space sustainability
+              standards.
+            </p>
             {/* <Button href="#try">Try It Out</Button> */}
             <Button href={docUrl("start-here")}>Get Started</Button>
+
             {/* <Button href={docUrl("doc2.html")}>Example Link 2</Button> */}
           </PromoSection>
         </div>

@@ -6,9 +6,15 @@ sidebar_label: Contributing
 
 The core maintainers of the TruSat [codebase](https://github.com/consensys-space) very much welcome contributions, especially those that tackle [open issues](https://github.com/consensys-space/trusat-frontend/issues)! If you wish to contribute, either open an issue then make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or make a pull request against a currently open issue.
 
-### Branch naming convention
+## Catching bugs / Requesting features
 
-TruSat maintainers use the following branch naming convention:
+If you find a bug when using TruSat please let us know! If you are familiar with GitHub you can help by opening an issue (making sure to label it as a "bug") or you can send us an email to help@beta.trusat.org
+
+We also have a forum **channel(ADD CHANNEL LINK)** dedicated to crowd-sourcing ideas for new features to be added to TruSat. Wisdom of the crowd for the win.
+
+## Branch naming convention
+
+TruSat maintainers use the following branch naming convention when using [Git](https://en.wikipedia.org/wiki/Git):
 
 - `master` - The production environment
 - `dev` - The branch used for deploying to the development/staging server environment
@@ -27,7 +33,7 @@ And here are some examples of branch names:
 - `chore/removing-unused-imports`
 - `wip/add-3box-for-authentication`
 
-### Branch creation to opening a PR
+## Branch creation to opening a PR
 
 - In command line, checkout the development branch of the repository you have just cloned (named “dev”) with `git checkout dev` then `git pull` to ensure you have the latest development branch on your local machine
 - Referencing the branch naming convention outlined above determine the group and name for your branch then run `git checkout -b {group}/{name-of-group}` to create the new branch and check it out.

@@ -4,9 +4,11 @@ title: Updating this documentation
 sidebar_label: Updating this documentation
 ---
 
-Just like the [code](https://github.com/consensys-space) that supports TruSat; this documentation (**link to docs on github**) is also open-source!
+Just like the [code](https://github.com/consensys-space) that underpins TruSat; this documentation (**LINK TO THE DOCS ON GITHUB**) is also open-source!
 
-If you want to edit any of the content please use the `EDIT` button to the top-right of any page you are viewing. This will bring you directly to where that specific page is hosted on [Github](https://github.com). If you don't already have a Github account you will need to create one to contribute.
+If you want to edit any of the content please use the `EDIT` button to the top-right of any page you are viewing. This will bring you directly to where that specific page is hosted on [Github](https://github.com). If you don't already have a Github account you will need to create one.
+
+(**ADD STEP-BY-STEP IMAGES**)
 
 ### Markdown
 
