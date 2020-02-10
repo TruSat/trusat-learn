@@ -1,14 +1,14 @@
 ---
 id: contributing
-title: Contributing
-sidebar_label: Contributing
+title: Contributing Code
+sidebar_label: Contributing Code
 ---
 
 The core maintainers of the TruSat [codebase](https://github.com/consensys-space) very much welcome contributions, especially those that tackle [open issues](https://github.com/consensys-space/trusat-frontend/issues)! If you wish to contribute, either open an issue then make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or make a pull request against a currently open issue.
 
 ## Catching bugs / Requesting features
 
-If you find a bug when using TruSat please let us know! If you are familiar with GitHub you can help by opening an issue (making sure to label it as a "bug") or you can send us an email to help@beta.trusat.org
+If you find a bug when using TruSat please let us know! If you are familiar with GitHub you can help by opening an issue (making sure to label it as a "bug") or alternatively send us an email to help@beta.trusat.org
 
 We also have a forum **channel(ADD CHANNEL LINK)** dedicated to crowd-sourcing ideas for new features to be added to TruSat. Wisdom of the crowd for the win.
 
