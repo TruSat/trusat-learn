@@ -64,8 +64,9 @@ class HomeSplash extends React.Component {
         <img
           src="https://trusat-assets.s3.amazonaws.com/readme-banner.jpg"
           alt="TruSat banner"
+          width="1000"
         ></img>
-        <div className="inner">
+        <div className="inner" style={{ margin: "0 auto", maxWidth: "1000px" }}>
           {/* <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} /> */}
 
           <PromoSection>
