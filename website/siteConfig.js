@@ -25,7 +25,7 @@ const siteConfig = {
   tagline: "Open Source Space Sustainability",
   url: "", // Your website URL
   baseUrl: "/", // Base URL for your project */
-  editUrl: "https://github.com/johngribbin/trusat-learn/tree/master/docs/",
+  editUrl: "https://github.com/consensys-space/trusat-learn/tree/master/docs/",
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
