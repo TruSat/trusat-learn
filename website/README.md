@@ -29,7 +29,7 @@ $ yarn start
 Your project file structure should look something like this
 
 ```
-my-docusaurus/
+trusat-learn/
   docs/
     doc-1.md
     doc-2.md
