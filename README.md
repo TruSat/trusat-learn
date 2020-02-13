@@ -2,9 +2,11 @@
 
 ### What is this?
 
-This is the documentation for the [TruSat](https://trusat.org) project and it was bootstrapped by a fork of the [Docusaurus](https://docusaurus.io/).
+This is the documentation for the [TruSat](https://trusat.org) project and it was bootstrapped with a fork of [Docusaurus](https://docusaurus.io/).
 
-The [React](https://github.com/facebook/react) app deployed at [https://learn.trusat.org](https://learn.trusat.org) can be found in the `/website` directory. The [README](https://github.com/consensys-space/trusat-learn/tree/master/website) for the `/website` directory has some further advice on how to navigate this repository and make changes to the content.
+The [React](https://github.com/facebook/react) app deployed at [https://learn.trusat.org](https://learn.trusat.org) can be found in the `/website` directory.
+
+The [README](https://github.com/consensys-space/trusat-learn/tree/master/website) for the `/website` directory has some further advice on how to navigate this repository and contribute changes/additions to the content.
 
 ### Get Started
 
@@ -16,3 +18,7 @@ cd trusat-learn/website && yarn install && yarn start
 ```
 
 This should open http://localhost:3000 in your default browser. The page will automatically reload if you make changes to the code.
+
+### Governance
+
+TBD
