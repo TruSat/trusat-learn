@@ -1,6 +1,6 @@
 {
   "docs": {
-    "TruSat Community": ["start-here", "contributing", "updating"],
+    "TruSat Community": ["start-here", "contributing", "updating", "design"],
     "Satellite Tracking Guide": [
       "high-level-guide",
       "browser-tools",
