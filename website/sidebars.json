@@ -4,12 +4,9 @@
     "Satellite Tracking Guide": [
       "high-level-guide",
       "browser-tools",
-      "photographing-sats",
-      "orbital-mechanics",
-      "data-formats",
-      "star-charts-celestial-coordinates"
+      "photographing-sats"
     ],
-    "Project Background": [
+    "About TruSat": [
       "overview",
       "space-sustainability",
       "proof-of-sat",
