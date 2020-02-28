@@ -8,19 +8,19 @@ sidebar_label: Technical Overview of the Proof of Satellite Software Engine
 
 The technical problem to which the Proof of Satellite software engine (“PofSat”) is addressed is proving a satellite’s orbital characteristics from individual observations that are not alone trustworthy. By leveraging the immutable characteristics of “on-chain” transactions, the PofSat engine is designed to be a substantially autonomous, decentralized capability, which can produce useful results without central moderation.
 
-A satellite’s orbit can only be perturbed by a limited number of phenomena, generally listed in order of effect, from greatest to least:
+A satellite’s orbit can only be perturbed by a limited number of phenomena, generally listed in order of effect, from greatest to least: <small>1</small>
 
-- 1. The launch vehicle, or final transfer or insertion stage of the rocket (often called rocket boosters, of which many remain in orbit)
-- 2. The satellite’s own propulsion system, or in the future, effects of third-party orbital transfer or satellite servicing
-- 3. Collision with an object or debris particle in orbit
-- 4. Drag effects from the Earth’s atmosphere (most prevalent at lower orbits, typically below 1,000km in altitude)
-- 5. Gravitation effects related to the non-spherical nature of the Earth’s gravitational field, the Moon, other planets, etc.
-- 6. Solar wind and other space weather effects
+1. The launch vehicle, or final transfer or insertion stage of the rocket (often called rocket boosters, of which many remain in orbit)
+2. The satellite’s own propulsion system, or in the future, effects of third-party orbital transfer or satellite servicing
+3. Collision with an object or debris particle in orbit
+4. Drag effects from the Earth’s atmosphere (most prevalent at lower orbits, typically below 1,000km in altitude)
+5. Gravitation effects related to the non-spherical nature of the Earth’s gravitational field, the Moon, other planets, etc.
+6. Solar wind and other space weather effects
 
 The Proof of Satellite engine leverages two features of Earth orbiting objects:
 
-- 1. The satellite orbits behave according to physics (Newton’s Laws), and thusly must be “in-family” with prior observations.
-- 2. Satellites positions and orbits are (theoretically) observable by anyone who knows where or how to look
+1. The satellite orbits behave according to physics (Newton’s Laws), and thusly must be “in-family” with prior observations.
+2. Satellites positions and orbits are (theoretically) observable by anyone who knows where or how to look
 
 Because of this, public trust ina prediction of where the satellite will be, according to the physics of orbital mechanics, can besuccessively verified by observations that the satellite is behaving (orbiting) as predicted. New observations have the potential to improve confidence in the orbit predictionas well as confirm prior estimates of it for purposes of assessing the performance of algorithms, observers and specific techniques contributing to these estimates.
 
@@ -48,7 +48,7 @@ Users of the TruSat catalog may sort satellites by confidence level for a variet
 
 ### III.A.1. Time -Recency of Observation
 
-As introduced above, the confidence in a satellite’s orbit decays from the influence of perturbing effects on the satellite’s orbit, as well as limitations in the chosen models used to propagate and communicate future predictions of the satellite’s orbit. For the initial version of this algorithm, we are implementing the SGP4/SDP4/SGP826algorithms which are optimized for results in the vicinity of the time epoch for which they are produced.
+As introduced above, the confidence in a satellite’s orbit decays from the influence of perturbing effects on the satellite’s orbit, as well as limitations in the chosen models used to propagate and communicate future predictions of the satellite’s orbit. For the initial version of this algorithm, we are implementing the SGP4/SDP4/SGP8 <small>2</small> algorithms which are optimized for results in the vicinity of the time epoch for which they are produced.
 
 Excluding spacecraft maneuvers from perturbations, orbit knowledge of objects in Low Earth Orbit (LEO) will generally degrade more quickly than objects farther away from the atmospheric and non-spherical gravitational perturbations induced by the Earth itself. As a result, a “High Earth Orbit” object could have orbit knowledge that is more accurate than a low Earth orbit object, with the same time having passed since each of their most recent observations.
 
@@ -62,7 +62,7 @@ As is often the case with measurements of physical properties, a “longer basel
 
 In addition to a geographic diversity of observations ability to improve the accuracy of an orbit prediction, when taking into account potential Attack Vectors (described later in this document) on the PofSat engine, we can also benefit from any knowledge of “National Diversity” or more generically, allegiance to a particular faction.
 
-Theoretically, if all the observers in Amsterdam were to conspire to make predictions which benefited themselves, and increased their rank or perpetuate a version of the catalog for their own objectives, we would be motivated to incorporate and provide weight to observations which were linked to allegiance to Amsterdam, or were distinct from it. While to first order, it may seem sufficient to apply this weighting based on these users’ geographic coordinates, their ability to acquire observations in remote locales (say, through telescope-for-rent services such as iTelescope, Slooh, or Lightbuckets27) could easily evade this weighting. To be able to implement this type of “faction diversity” may require some amount of Know-Your-Customer efforts (KYC) in order to gain third party confidence of the identity and affiliations of an observer, and as a result is scoped for implementation later in the roadmap.
+Theoretically, if all the observers in Amsterdam were to conspire to make predictions which benefited themselves, and increased their rank or perpetuate a version of the catalog for their own objectives, we would be motivated to incorporate and provide weight to observations which were linked to allegiance to Amsterdam, or were distinct from it. While to first order, it may seem sufficient to apply this weighting based on these users’ geographic coordinates, their ability to acquire observations in remote locales (say, through telescope-for-rent services such as iTelescope, Slooh, or Lightbuckets <small>3</small>) could easily evade this weighting. To be able to implement this type of “faction diversity” may require some amount of Know-Your-Customer efforts (KYC) in order to gain third party confidence of the identity and affiliations of an observer, and as a result is scoped for implementation later in the roadmap.
 
 ### III.A.3.User Rank
 
@@ -76,15 +76,15 @@ Taking into account every contributing user into the system allows for varying w
 
 For the v0.1 release, the specific factors contributing to initial rank are being established, but they are expected to include aspects of:
 
-- 1. Total number of validated observations contributed
-- 2. Longevity of contributions
-- 3. An empirically-derived weighting factor for #1 and #2 to add weight for users who have contributed recently (this prevents legacy users from having undue influence if they aren’t continuing contributors)
-- 4. A factor relating to inclusion/exclusion of a user’s observations increasing/decreasing the residuals of other users’ observations
+1. Total number of validated observations contributed
+2. Longevity of contributions
+3. An empirically-derived weighting factor for #1 and #2 to add weight for users who have contributed recently (this prevents legacy users from having undue influence if they aren’t continuing contributors)
+4. A factor relating to inclusion/exclusion of a user’s observations increasing/decreasing the residuals of other users’ observations
 
 The end result of applying user-rank into observation weighting is two-fold:
 
-- 1. The effect a user’s contribution has on the estimate of an object’s orbit, and
-- 2. The speed at which object confidence is elevated per each new observation (low rank users have little-to-no effect, while high-rank observers may allow graduation to the next confidence level immediately)
+1. The effect a user’s contribution has on the estimate of an object’s orbit, and
+2. The speed at which object confidence is elevated per each new observation (low rank users have little-to-no effect, while high-rank observers may allow graduation to the next confidence level immediately)
 
 This rank is anticipated to be updated for every batch of new observations submitted by the user, with the opportunity to update the associated TLE estimates at the same moment.
 
@@ -94,7 +94,7 @@ As described in the roadmap at Section V, successive releases will introduce ext
 
 ### III.A.4. Observation Trace-ability and Audit
 
-In the post v0.1roadmap for TruSat will be the ability to accommodate the raw data (position observations of satellites) fusing a facility like IPFS28to store it in a distributed and immutable fashion. Semi-automated open source image object identification and observation reporting capabilities already exist, in projects such as sattools29and stvid30, and incorporation of these code-bases and the storage of the raw data in IPFS could allow for third-party verification and machine-learning assistance of verification of observations, as well as contributing to better results as a result of an increasingly large training dataset. Separately, itprovides an opportunity for non-observing laypersons to contribute to the effort merely by volunteering to serve as an IPFS node for the TruSat data, similar in style to how “SETI-at-Home” and now the Berkeley Open Infrastructure for Network Computing (BOINC) application allows individuals to donate their spare computing sources towards scientific computation pursuits.
+In the post v0.1roadmap for TruSat will be the ability to accommodate the raw data (position observations of satellites) fusing a facility like IPFS <small>4</small> to store it in a distributed and immutable fashion. Semi-automated open source image object identification and observation reporting capabilities already exist, in projects such as sattools <small>5</small> and stvid <small>6</small>, and incorporation of these code-bases and the storage of the raw data in IPFS could allow for third-party verification and machine-learning assistance of verification of observations, as well as contributing to better results as a result of an increasingly large training dataset. Separately, itprovides an opportunity for non-observing laypersons to contribute to the effort merely by volunteering to serve as an IPFS node for the TruSat data, similar in style to how “SETI-at-Home” and now the Berkeley Open Infrastructure for Network Computing (BOINC) application allows individuals to donate their spare computing sources towards scientific computation pursuits.
 
 Workflows which include a raw astrometry dataset also provide for the opportunity to extract additional information such as object visualmagnitude and variability, which may relate to certain sustainability factors.
 
@@ -296,25 +296,25 @@ Resolution: In the initial release, which relies on Web 2 services, this exists 
 
 ## III.D. Data Inputs and Outputs
 
-With its v0.1 release, TruSat will securely store visual position observations, which are fed into the Proof of Satellite engine to generate satellite ephemeris, to be distributed in the two-line element (“TLE”) format. To support the workflow, the catalog will also contain basic contextual information retrieved from public sources and well as information required to uniquely identify user accounts, their observation locations, and user performance data to support the automated generation of satellite ephemeris from updated observations.
+With its v0.1 release, TruSat will securely store visual position observations, which are fed into the Proof of Satellite engine to generate satellite ephemeris, to be distributed in the two-line element (“TLE”) format. To support the workflow, the catalog will also contain basic contextual information retrieved from public sources <small>7</small> as well as information required to uniquely identify user accounts, their observation locations, and user performance data to support the automated generation of satellite ephemeris from updated observations.
 
-In its initial release, TruSat will accept observations in IOD, UK or RDE Positional Observation reporting formats32, although the “COSPARsite” identifying the user observation location in these records will still need to be coordinated through the Seesat-L mailing list until alternative standards can be vetted and established.
+In its initial release, TruSat will accept observations in IOD, UK or RDE Positional Observation reporting formats <small>8</small>, although the “COSPARsite” identifying the user observation location in these records will still need to be coordinated through the Seesat-L mailing list until alternative standards can be vetted and established.
 
-Early in our post-initial-release roadmap we anticipate being able to accept TLEs from satellite operators and operator derived state vectors with associated documentation on coordinate frame and time reference. Should the experiment of TruSat be successful, we anticipate being able to expand observations to includeradio-doppler measurements such as those made by the SatNOGS33network.
+Early in our post-initial-release roadmap we anticipate being able to accept TLEs from satellite operators and operator derived state vectors with associated documentation on coordinate frame and time reference. Should the experiment of TruSat be successful, we anticipate being able to expand observations to includeradio-doppler measurements such as those made by the SatNOGS <small>9</small> network.
 
 Future releases may place greater weight on observations that are accompanied with their raw observation data, to allow third-party verification of the observation result. Other developments in the roadmap are anticipated to enable basic information about the object’s optical properties, including visual magnitude, and related measurements. Additionally, an active community of radio-frequency observers of satellite may provide for additional opportunities to verify satellite orbits, provide data about their RF emissions, or provide insight into objects which cannot be visually measured.
 
 TruSat will not pull data direction from Space-Track.org or any other source that imposes restrictions on use of the data.
 
-Predictions in the catalog will be represented in Two Line Element (TLE)34sets, the defacto standard by which the parameters describing a satellite orbit can be shared. The format, originally developed during the punch-cardera of computing, is a fixed-field, fixed width partially encoded format for storage efficiency, and has been produced by NORAD for most objects since its establishment. A TLE can be used by the SGP family of orbit propagators to provide reasonably accurate position and velocity of a satellite for a given time. As a TLE is an approximation of the orbit, they are designed to be most accurate near an “epoch” (akin to a manufacture date), and become progressively less reliable the farther away from this date the estimate is used, owing to atmospheric effects, gravitational and other small perturbation, and the approximations of the SGP model itself.
+Predictions in the catalog will be represented in Two Line Element (TLE) <small>10</small> sets, the defacto standard by which the parameters describing a satellite orbit can be shared. The format, originally developed during the punch-cardera of computing, is a fixed-field, fixed width partially encoded format for storage efficiency, and has been produced by NORAD for most objects since its establishment. A TLE can be used by the SGP family of orbit propagators to provide reasonably accurate position and velocity of a satellite for a given time. As a TLE is an approximation of the orbit, they are designed to be most accurate near an “epoch” (akin to a manufacture date), and become progressively less reliable the farther away from this date the estimate is used, owing to atmospheric effects, gravitational and other small perturbation, and the approximations of the SGP model itself.
 
 Because of their ubiquitous use, TruSat project will produce predictions in compliance with this standard, and be prepared to follow, and potentially lead in efforts to modernize the format and its use.
 
 ## III.E. Tuning the Proof of Satellite Engine
 
-For visual position observations, TruSatis building on the 25 years of publicly available work from the all-volunteer SeeSat Visual Satellite Observer organization35. The SeeSat website contains extensive information about the hobby of visual satellite observation, including techniques for finding faint objects, making positional observations, as well as characterizing the visual brightness and time-varying visual properties. The SeeSat community is notable for distributing TLEs for satellites which are not available in the public US STRATCOM satellite catalog, typically classified satellites, operated by the United States and its allies.
+For visual position observations, TruSatis building on the 25 years of publicly available work from the all-volunteer SeeSat Visual Satellite Observer organization <small>11</small>. The SeeSat website contains extensive information about the hobby of visual satellite observation, including techniques for finding faint objects, making positional observations, as well as characterizing the visual brightness and time-varying visual properties. The SeeSat community is notable for distributing TLEs for satellites which are not available in the public US STRATCOM satellite catalog, typically classified satellites, operated by the United States and its allies.
 
-The archive of SeeSat data supplied a rich source of data to “train” and tune the Proof of Satellite engine ahead of its initial release. For 25 years, SeeSatusers have distributed their visual position observations in one of three machine-readable positional observation reporting formats36. The ConsenSys Space team has recovered and organized nearly 400,000 individual observations contributed by this community since December, 1998. Each of the observation data points include information about the apparent sky-location of a known satellite, and the time the observation was made. Additionally, reference information is available about the observer, their location, and the ability to describe observing conditions and the estimated accuracy of the measurement.
+The archive of SeeSat data supplied a rich source of data to “train” and tune the Proof of Satellite engine ahead of its initial release. For 25 years, SeeSatusers have distributed their visual position observations in one of three machine-readable positional observation reporting formats. <small>12</small> The ConsenSys Space team has recovered and organized nearly 400,000 individual observations contributed by this community since December, 1998. Each of the observation data points include information about the apparent sky-location of a known satellite, and the time the observation was made. Additionally, reference information is available about the observer, their location, and the ability to describe observing conditions and the estimated accuracy of the measurement.
 
 This data corpus was an invaluable resource in testing algorithms to support the Proof of Satellite engine, as well as explore UI/UX features to support and grow the community making these observations. Starting TruSat with a “25 year history” of user performance is also a benefit which we hope can continue to serve the Seesat community.
 
@@ -335,3 +335,28 @@ We anticipate the first opportunity to implement options such as these would pre
 Privacy by default is a core design choice made in architecting the TruSat software. In the default settings, an Ethereum address and some observation history data will be the only information about a contributor viewable by other users of the System. Contributors will have the option to reveal more information, including their username and location (e.g., “India” or “San Francisco, USA”) , as well as the option to remove their identity and observation contributions entirely from the network.
 
 To account for a satellite observation, the Proof of Satellite engine must first verify the contributors ownership of an ethereum address, then process the a high-resolution (meters level) position of location from which the observation was made. TruSat utilizes the same public key cryptography used to verify ownership and control of cryptocurrency to verify ownership and control of an observer identity. If an individual wishes to use a different Ethereum address for every contribution or instead to “persist” the same address over time, they will have the option to do so. Using different addresses is likely to result in their observations having less influence on the catalog contents than if they were to choose a persistent identity. These design choices are in step with the long-term goal for the network to be fully decentralized. Ethereum wallets will be a key component of those future plans and early adopters of TruSat will be able to take their first steps toward that end by starting with a more self-sovereign identity.
+
+
+<small>1. Over time we may expect the space economy to provide an additional perturbation in this list - in the form of “satellite servicing” vehicles, or “another satellite” which would probably exist between #1 and #2 in importance. The Space Shuttle, and the Russian Soyuz and Progress modules have contributed to the reboosting of the MIR Space Station, the International Space Station, and other satellites, such as the Hubble Space Telescope, so far in the history of space exploration.</small>
+
+<small>2. https://www.celestrak.com/publications/AIAA/2006-6753/</small>
+
+<small>3. https://www.universetoday.com/93764/roboscopes-real-armchair-astronomy/</small>
+
+<small>4. https://ipfs.io/</small>
+
+<small>5. https://github.com/cbassa/sattools</small>
+
+<small>6. https://github.com/cbassa/stvid</small>
+
+<small>7. Celestrak.com Satellite Catalog (SATCAT) https://www.celestrak.com/satcat/satcat-format.php and the Union of Concerned Scientists (UCS) Satellite Database https://www.ucsusa.org/nuclear-weapons/space-weapons/satellite- database.</small>
+
+<small>8. http://www.satobs.org/position/posn_formats.html</small>
+
+<small>9. Open Source global network of satellite ground-stations https://satnogs.org/</small>
+
+<small>10. https://en.wikipedia.org/wiki/Two-line_element_set</small>
+
+<small>11. SeeSat Website: http://www.satobs.org/</small>
+
+<small>12. http://www.satobs.org/position/posn_formats.html</small>
