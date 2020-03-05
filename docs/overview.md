@@ -4,6 +4,8 @@ title: Overview
 sidebar_label: Overview
 ---
 
+To view the TruSat white paper in PDF form, you can read and download it [here](https://trusat-assets.s3.amazonaws.com/TruSat+White+Paper_v3.0.pdf).
+
 ## I.Introduction and Overview
 
 TruSat is an experimental open source, open-sensor system for creating a trusted record of satellite orbits.TruSat is primarily designed to enable the assessment of satellite operations in light of space sustainability standards. Space sustainability is about preserving the use of outer space, and all of its socioeconomic benefits, for present and future generations.
