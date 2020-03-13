@@ -4,6 +4,8 @@ title: High-level guide
 sidebar_label: High-level guide
 ---
 
+This is an intro to satellite tracking. For more guides, check the table of contents.
+
 Spotting satellites in the night sky can be a relaxing, rewarding activity. The serenity of contemplating the night sky, the thrill of catching a satellite passing by at 28,000kph.
 
 ## What does Satellite Tracking Involve?
