@@ -25,4 +25,5 @@ Please add your designs to this list. Link to issues or files where applicable, 
 - Submit observation images — [Figma doc](https://www.figma.com/file/LEL9dzD9uC3NRstzF26SF7/TruSat---Image-processing?node-id=0%3A1)
 - Campaigns spec — [Figma doc](https://www.figma.com/file/BNcXYcUE8yrixSxqmbPkrf/TruSat---8%2F20%2F19---Campaigns-feature-spec?node-id=0%3A1)
 - Single IOD entry form — [Figma doc](https://www.figma.com/file/8FNsDfgPeGA9aHu671Pf8o/TruSat---Single-IOD-Entry-Form-Design?node-id=0%3A1)
-- Location Management – [issue](https://github.com/consensys-space/trusat-frontend/issues/183), [Figma doc](https://www.figma.com/file/9NUQvidxULhcwqf2H9j3ID/TruSat---Location-Management-Designs?node-id=0%3A1)
+- Location management – [issue](https://github.com/consensys-space/trusat-frontend/issues/183), [Figma doc](https://www.figma.com/file/9NUQvidxULhcwqf2H9j3ID/TruSat---Location-Management-Designs?node-id=0%3A1)
+- Community stats/infographic – [issue](https://github.com/consensys-space/trusat-frontend/issues/265), [Figma doc](https://www.figma.com/file/ARaij3ZCP7lb52zP1Io8Dj/TruSat---Catalog?node-id=1%3A184)
