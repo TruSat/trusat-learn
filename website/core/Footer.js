@@ -95,7 +95,7 @@ class Footer extends React.Component {
             </a>
             {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
             <a
-              href="https://github.com/consensys-space"
+              href="https://github.com/trusat"
               target="_blank"
               rel="noreferrer noopener"
             >

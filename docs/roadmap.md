@@ -72,4 +72,4 @@ In its initial releases, TruSatdepends on participation (i.e., satellite observa
   - There has never been a tool quite like this, and ascertaining how it is used is part of the experiment. This will inform the universe of possibilities and design of incentive structures for future releases, including potentially a token model.
 - Initial release is also dependent on the interests of the TruSat Partners in continuing to operate and develop this sustainability tool. Plan for release on Mainnet is to supply incentives for decentralized maintenance of this tool.
 
-Initially, bug reports and feature requests will be tracked and managed at:[https://github.com/consensys-space/](https://github.com/consensys-space/)
+Initially, bug reports and feature requests will be tracked and managed at:[https://github.com/trusat/](https://github.com/trusat/)
