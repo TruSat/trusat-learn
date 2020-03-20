@@ -15,7 +15,7 @@ Spotting satellites in the night sky can be a relaxing, rewarding activity. The 
 
 Right now, timing a satellite is a relatively manual process and takes some practice. TruSat will continually add features to make this process easier and more enjoyable. You can be the first to know about new features by joining the TruSat Community. And please share your ideas for new features, and your tips for satellite spotting in the TruSat Forum.
 
-If you’re very new to the sport, don’t worry about trying to time a satellite on your first outing. We’ll walk you through a progression of activities to build your skills, familiarize yourself with the night sky, and enjoy yourself along the way.
+If you’re new to the sport, don’t worry about trying to time a satellite on your first outing. We’ll walk you through a progression of activities to build your skills, familiarize yourself with the night sky, and enjoy yourself along the way.
 
 ## Level 1
 
