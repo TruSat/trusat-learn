@@ -25,7 +25,7 @@ const siteConfig = {
   tagline: "Open Source Space Sustainability",
   url: "", // Your website URL
   baseUrl: "/", // Base URL for your project */
-  editUrl: "https://github.com/consensys-space/trusat-learn/tree/master/docs/",
+  editUrl: "https://github.com/trusat/trusat-learn/tree/master/docs/",
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -106,7 +106,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: "https://github.com/consensys-space/trusat-orbit"
+  repoUrl: "https://github.com/trusat/trusat-orbit"
 };
 
 module.exports = siteConfig;
