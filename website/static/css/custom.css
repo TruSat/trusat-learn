@@ -42,6 +42,7 @@ small, small a {
 }
 
 .panel {
+    background-color:  rgb(245, 245, 245);
     border-radius: 4px;
     box-shadow:
         0 2px 2px rgba(0, 0, 0, 0.028),
@@ -63,7 +64,11 @@ a.panel {
 }
 
 .panel:hover {
-    background-color: rgb(235, 235, 235);
+    background-color:white;;
+    box-shadow:
+    0 4px 4px rgba(0, 0, 0, 0.028),
+    0 12.7px 12.7px rgba(0, 0, 0, 0.042),
+    0 60px 60px rgba(0, 0, 0, 0.07);
 }
 
 

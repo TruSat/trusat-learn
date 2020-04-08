@@ -4,13 +4,15 @@ title: Start here
 sidebar_label: Start here
 ---
 
-<h2>What would you like to learn about?</h2>
+<h2>
+    What would you like to learn about?
+</h2>
 
 <!-- Custom buttons: -->
 <div class="panel-set">
     <a href="high-level-guide" class="panel">
         <div class="panel__cover">
-            <img src="/img/undraw_youtube_tutorial.svg" />
+            <img src="/img/illustration-observation2-640px.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -23,7 +25,7 @@ sidebar_label: Start here
     </a>
     <a href="https://trusat.org/about" class="panel">
         <div class="panel__cover">
-            <img src="/img/undraw_youtube_tutorial.svg" />
+            <img src="/img/illustration-trash2-640px.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -36,7 +38,7 @@ sidebar_label: Start here
     </a>
     <a href="contributing" class="panel">
         <div class="panel__cover">
-            <img src="/img/undraw_youtube_tutorial.svg" />
+            <img src="/img/illustration-open_source-640px.png" />
         </div>
         <div class="panel__text">
             <h3>
