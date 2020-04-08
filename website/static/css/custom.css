@@ -35,10 +35,21 @@ small, small a {
 
 .panel-set {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    margin: 30px 0;
+    flex-direction: column;
+    margin-top: 30px;
     width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .panel-set {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1150px) {
+    .panel-set {
+        flex-direction: column;
+    }
 }
 
 .panel {
@@ -49,7 +60,7 @@ small, small a {
         0 6.7px 6.7px rgba(0, 0, 0, 0.042),
         0 30px 30px rgba(0, 0, 0, 0.07);
     flex-basis: 33.33%;
-    margin-right: 20px;
+    margin: 0 20px 40px 0;
 }
 
 /* .panel div {border: 1px solid red;} */
