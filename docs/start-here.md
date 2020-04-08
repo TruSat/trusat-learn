@@ -4,21 +4,13 @@ title: Start here
 sidebar_label: Start here
 ---
 
-If you want to get started with satellite tracking to help you submit observations to [TruSat](https://trusat.org), we recommend that you:
-
-1.  Start with the [Satellite Tracking Guide](high-level-guide)
-2.  Check out the [FAQ section](FAQ)
-3.  Join the ["Discuss" Forum](https://discuss.trusat.org)
-
-If you can't find the help you need here or in the [FAQ section](FAQ), please feel free to post questions in the [Forum](https://discuss.trusat.org/).
-
-What would you like to learn about?
+<h2>What would you like to learn about?</h2>
 
 <!-- Custom buttons: -->
 <div class="panel-set">
     <a href="high-level-guide" class="panel">
         <div class="panel__cover">
-        <img src="/img/undraw_youtube_tutorial.svg" />
+            <img src="/img/undraw_youtube_tutorial.svg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -31,7 +23,7 @@ What would you like to learn about?
     </a>
     <a href="https://trusat.org/about" class="panel">
         <div class="panel__cover">
-        <img src="/img/undraw_youtube_tutorial.svg" />
+            <img src="/img/undraw_youtube_tutorial.svg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -44,7 +36,7 @@ What would you like to learn about?
     </a>
     <a href="contributing" class="panel">
         <div class="panel__cover">
-        <img src="/img/undraw_youtube_tutorial.svg" />
+            <img src="/img/undraw_youtube_tutorial.svg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -55,4 +47,6 @@ What would you like to learn about?
             </p>
         </div>
     </a>
-<div>
+</div>
+
+If you can't find the help you need here or in the [FAQ section](FAQ), please feel free to post questions in the [Forum](https://discuss.trusat.org/).

@@ -44,7 +44,7 @@ class Footer extends React.Component {
               Prize Campaign
             </a>
             <a href={this.docUrl("high-level-guide", this.props.language)}>
-              Satelitte Tracking Guide
+              Satellite Tracking Guide
             </a>
             <a href={this.docUrl("overview", this.props.language)}>
               Project Background

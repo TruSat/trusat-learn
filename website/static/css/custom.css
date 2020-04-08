@@ -35,7 +35,10 @@ small, small a {
 
 .panel-set {
     display: flex;
-    margin-bottom: 30px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 30px 0;
+    width: 100%;
 }
 
 .panel {

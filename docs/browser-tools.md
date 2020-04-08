@@ -1,7 +1,7 @@
 ---
 id: browser-tools
-title: Tracking a Satelitte with browser tools
-sidebar_label: Tracking a Satelitte with browser tools
+title: Tracking a Satellite with browser tools
+sidebar_label: Tracking a Satellite with browser tools
 ---
 
 ## Parts required:
