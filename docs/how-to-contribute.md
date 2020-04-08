@@ -13,7 +13,7 @@ TruSat is community-driven and community-built.  By contributing your time, uniq
 
 Here you can submit a pre-formatted satellite observation to the TruSat Catalog. New to satellite tracking? [This guide](https://learn.trusat.org/docs/high-level-guide) should get you up to speed. 
 
-## [Contribute code](https://github.com/orgs/consensys-space/projects/1)
+## [Contribute code](https://github.com/TruSat/trusat-learn)
 
 Are you a developer looking to sharpen your skills? The TruSat Github Project shows all of the features, enhancements, and bugs our community looking for help with. 
 
