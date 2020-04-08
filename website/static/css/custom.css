@@ -31,3 +31,39 @@ small, small a {
     line-height: 12px;
     color: #717171;
 }
+
+
+.panel-set {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.panel {
+    border-radius: 4px;
+    box-shadow:
+        0 2px 2px rgba(0, 0, 0, 0.028),
+        0 6.7px 6.7px rgba(0, 0, 0, 0.042),
+        0 30px 30px rgba(0, 0, 0, 0.07);
+    flex-basis: 33.33%;
+    margin-right: 20px;
+}
+
+/* .panel div {border: 1px solid red;} */
+
+.panel h3 {
+    margin: 0 0 10px;
+    text-decoration: underline;
+}
+
+a.panel {
+    text-decoration: none;
+}
+
+.panel:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+
+.panel__text {
+    padding: 20px 20px 10px;
+}
