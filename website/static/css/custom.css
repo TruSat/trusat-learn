@@ -86,3 +86,21 @@ a.panel {
 .panel__text {
     padding: 20px 20px 10px;
 }
+
+
+@media only screen and (min-device-width: 400px) {
+
+    .inline-image {
+        width: 200px;
+        float: left;
+        margin: 0 30px 10px 0;
+        padding-left: 20px;
+    }
+
+}
+
+.force-line-break {
+    height: 1px;
+    border: 1px solid red;
+    width: 100%;
+}

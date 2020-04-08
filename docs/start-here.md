@@ -4,9 +4,7 @@ title: Start here
 sidebar_label: Start here
 ---
 
-<h2>
-    What would you like to learn about?
-</h2>
+## What would you like to learn about?
 
 <!-- Custom buttons: -->
 <div class="panel-set">
