@@ -15,7 +15,7 @@ All of the pages of the TruSat documentation are written with Markdown - a light
 ### Using Github
 
 1. Once you've selected a page to edit and have clicked te `Edit` button located on the top-right of the page, you will be brought to where that file is hosted. To edit the file click on the pencil icon. This will allow you to begin editing the file. 
-![UD Step 1](https://github.com/TruSat/trusat-learn/blob/master/website/static/img/UD%20Step%202.JPG)
+![UD Step 1](https://raw.githubusercontent.com/TruSat/trusat-learn/master/website/static/img/UD%20Step%202.JPG)
 
 
 2. Now you can begin to update the documentation. Pay attention to the formating of the current documentation while you are making your edits. 
