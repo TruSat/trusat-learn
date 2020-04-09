@@ -27,12 +27,26 @@
 }
 
 small, small a {
+    color: #717171;
     font-size: 12px;
     line-height: 12px;
-    color: #717171;
 }
 
 
+/* Misc. helpers */
+.hide-on-mobile {
+    display: none;
+}
+
+@media only screen and (min-device-width: 600px) {
+    .force-line-break {
+        display: block;
+        height: 1em;
+    }
+}
+
+
+/* Styles for the panel buttons on "start-here" page */
 .panel-set {
     display: flex;
     flex-direction: column;
@@ -63,7 +77,13 @@ small, small a {
     margin: 0 20px 40px 0;
 }
 
-/* .panel div {border: 1px solid red;} */
+.panel:hover {
+    background-color:white;;
+    box-shadow:
+    0 4px 4px rgba(0, 0, 0, 0.028),
+    0 12.7px 12.7px rgba(0, 0, 0, 0.042),
+    0 60px 60px rgba(0, 0, 0, 0.07);
+}
 
 .panel h3 {
     margin: 0 0 10px;
@@ -74,33 +94,17 @@ a.panel {
     text-decoration: none;
 }
 
-.panel:hover {
-    background-color:white;;
-    box-shadow:
-    0 4px 4px rgba(0, 0, 0, 0.028),
-    0 12.7px 12.7px rgba(0, 0, 0, 0.042),
-    0 60px 60px rgba(0, 0, 0, 0.07);
-}
-
-
 .panel__text {
     padding: 20px 20px 10px;
 }
 
 
+/* Right-floating images on "participate" page */
 @media only screen and (min-device-width: 400px) {
-
     .inline-image {
         width: 200px;
-        float: left;
-        margin: 0 30px 10px 0;
-        padding-left: 20px;
+        float: right;
+        margin: 0 0 10px 30px
     }
 
-}
-
-.force-line-break {
-    height: 1px;
-    border: 1px solid red;
-    width: 100%;
 }

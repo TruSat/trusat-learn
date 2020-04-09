@@ -14,29 +14,37 @@ Here are some ways to contribute right now:
 
 TruSat is powered by satellite observations from citizen scientists around the world.
 
-To learn how to track satellites and make observations, check out the tutorials in the Satellite Tracking Guide.
+To learn how to track satellites and make observations, check out the tutorials in the [Satellite Tracking Guide](high-level-guide).
 
-Once you’ve created a TruSat account and have made an observation, visit this page to submit.
+Once you’ve [created a TruSat account](http://trusat.org/signup) and made an observation, visit [this page](https://trusat.org/submit/single) to submit.
 
-<div class="force-line-break"></div>
 
 ## 2. Contribute code
 
 <img class="inline-image" src="/img/illustration-gameplan-brightened-640px.jpg" alt="Submit observations">
 
-Are you a developer looking to sharpen your skills? Check out the TruSat Github Project to see all of the features, enhancements, and bugs our community is looking for your help with. 
+Are you a developer looking to pitch in or just sharpen your skills? Check out our [Github project board](https://github.com/orgs/TruSat/projects/1) to see all of the features, enhancements, and bugs our community is looking for your help with. 
 
-<div class="force-line-break"></div>
+And please give our [repos](https://github.com/trusat) a star to help our project gain visibility in the open-source community. 
+
 
 ## 3. Support the mission
 
 <img class="inline-image" src="/img/illustration-mission-640px.jpg" alt="Submit observations">
 
-**You don’t need to know how to tracck sats or code to help out.** 
+**You don’t need to know how to track sats or write code to help out.** 
 
-Here are a list of tasks anyone can help with to advance TruSat's mission:
-+++
-- If you spot a bug or have a feature idea, we want to hear about it. Please add your idea to our list of open Github issues. This guide explains more.
-- If you have a Github account, follow the TruSat repos to stay updated and “star” the repos to help increase the project’s visibility.
-- Follow TruSat on Twitter to stay updated and to help spread the word.
-- Joining the TruSat Forum. You'll receive emails with updates from the community and the project.
+Here's a list of tasks anyone can help with to advance TruSat's mission:
+
+**Easy**
+- **Submit requests for Learning Hub topics:** If there's anything specific you'd like to know more about, submit an issue in the [forum](https://discuss.trusat.org), or in the Learning Hub's [Github](https://github.com/TruSat/trusat-learn/issues).
+- **Report a bug:** Please let us know if you find any bugs or undesired behavior by starting a post in the [forum](https://discuss.trusat.org), or submitting an issue to our [Github](https://github.com/TruSat/trusat-frontend/issues).
+- **Voice your feature requests:** If you have an idea for a feature, we ant to hear about it. Feel free to post about it in the [forum](https://discuss.trusat.org), or submitting it as an issue on our [Github](https://github.com/TruSat/trusat-frontend/issues).
+- **Star our repos:** If you have a Github account, follow the [TruSat repos](https://github.com/trusat) to stay updated and please “star” the repos. This helps a lot with the project’s visibility.
+- **Join the TruSat Forum:** Sign up [here](http://discuss.trusat.org/). You'll receive emails with updates from the community and the project.
+- **Spread the word:** Do you know someone else who's interested in space? Tell them about TruSat!
+
+**More involved**
+- **Help us with our documentation:** Check out our [wishlist](https://github.com/TruSat/trusat-learn/issues) of topics and enhancements that we'd like to include in the Laerning Hub. [Here's](updating) how you can help update this content.
+- **Help us educate newcomers on satellite-tracking topics:** There's so much more fascinating info  around satellite-tracking than any one of us has time to create content for. Many of TruSat's visitors have valuable knowledge and know-how that others would benefit from learning. Take a look at the list of sections under the **Satellite Tracking Guide**, and feel free to add your own content.
+- **Help us with our feature specifications:** Beyond just making feature requests, we welcome any input that helps refine existing feature requests. If you have an interest in project/product management, or just want a more involved role in shaping TruSat's roadmap and features without touching code, check out our [Github Project Board](https://github.com/orgs/TruSat/projects/1) and [issue list](https://github.com/TruSat/trusat-frontend/issues) to see what we're working on. Feel free to voice your opinions by commenting on existing issues or opening your own. 

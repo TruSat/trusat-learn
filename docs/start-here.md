@@ -34,7 +34,7 @@ sidebar_label: Start here
             </p>
         </div>
     </a>
-    <a href="contributing" class="panel">
+    <a href="participate" class="panel">
         <div class="panel__cover">
             <img src="/img/illustration-open_source-640px.png" />
         </div>
