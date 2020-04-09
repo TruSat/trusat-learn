@@ -21,9 +21,13 @@ If you’re new to the sport, don’t worry about trying to time a satellite on 
 
 If you look up for long enough, you’ll see a star-like point of light moving continuously across the night sky. That’s a satellite! Spotting your first satellite this way, without worrying about timing it, is a good way to get acquainted with the night sky, and how satellites move through it (if it blinks, it’s probably an airplane).
 
-1. Satellites are most visible in certain windows of the morning and evening, when the sun is low enough for a dark sky, but still high enough to cast light reflected by the satellite. The best time to spot a satellite is 30 - 90 minutes after sunset or before sunrise. Expect to see more stars than you can quickly count when scanning the sky in that time frame.
+1. Satellites are most visible in certain windows of the morning and evening, when the sun is low enough for a dark sky, but still high enough to cast light reflected by the satellite. The best time to spot a satellite is 30 - 90 minutes after sunset or before sunrise. Be sure to look towards the east at sunset and towards the west at sunrise. Expect to see more stars than you can quickly count when scanning the sky in that time frame.
 2. If it’s a clear night and you’re in an area without too much light pollution, you’ll be able to see a number of satellites with your bare eyes. A pair of binoculars will greatly increase the conditions in which you can spot satellites.
 3. Train your eyes (or binoculars) on a fixed point in the night sky and wait. Relax, breathe deeply, and contemplate just how large our universe is. Pro tip: if you want to look straight up, laying on your back will save your neck.
+4. To distinguish whether or not what you're looking at is a satellite, pay attention to its *appearance* and *speed*. 
+    *Appearance* - Most satellites appear as steady lights and are silvery white to reddish in color. A few satellites appear very            bright, but most look like dim stars. It is much easier to recognize these details when using binoculars; however, telescopes are        actually not very useful for most objects. 
+    *Speed* - Satellites typically take 3 to 4 minutes to cross the sky, and they tend to speed up as they pass high overhead.                Additionally, unlike airplanes which tend to fly in a straight line, satellites travel in great circles. 
+
 
 ## Level 2
 
@@ -55,7 +59,7 @@ SkyView allows you to search their catalog for a satellite then the AR features 
 
 If you want to find a specific satellite, we recommend planning ahead because satellites in Low Earth Orbit (LEO) do not appear at the same spot and time each day.
 
-Sites like [Heavens Above](https://www.heavens-above.com/PassSummary.aspx?satid=25544&lat=0&lng=0&loc=Unspecified&alt=0&tz=UCT) and [CalSky](https://www.calsky.com/cs.cgi?cha=12&sec=4) will tell you all the times a particular satellite will be visible at your location, which passes will be easiest for you to see, and plot the satellite’s path along star maps.
+Sites like [Heavens Above](https://www.heavens-above.com/PassSummary.aspx?satid=25544&lat=0&lng=0&loc=Unspecified&alt=0&tz=UCT) and [CalSky](https://www.calsky.com/cs.cgi?cha=12&sec=4) will tell you all the times a particular satellite will be visible at your location, which passes will be easiest for you to see, and plot the satellite’s path along star maps. The best time to see a satellite is when it is at its highest point in the sky. This is when its appearance is brightest. 
 
 The International Space Station (ISS) is a good satellite to start with because it is quite bright (brighter than some planets). And there are people onboard! This video will walk you through using Heavens Above to plan your satellite hunt.
 
@@ -67,7 +71,15 @@ This is the narrated, screen recorded video for using Heavens Above:
 
 ## Level 4
 
-Once you have timed a satellite, the final step is to input your time and location data into software that will calculate an initial orbit determination (IOD).
+Once you have timed a satellite, the final step is to input your time and location data into software that will calculate an initial orbit determination (IOD). 
+
+There are two approaches you can take to capture the time and location of a passing satellite. 
+  1. *The Fishing Net Appraoch* - This approach involves looking in best part of sky for that time and record when a satellite passes     stars. This method requires that you identify the satellite after you record its time and location. This method may be tedious as       identification tools are not user friendly at this point unless you have photographs of the satellite you have captured. Note: There     is a likelihood that you will not "catch" high priority targets using this method.
+
+  2. *The Fishing Line Approach* - This approach involves using prediction tools like Heavens-Above to generate a time and place to look   for specific satellites. This method allows you to utilize the high priority target list from TruSat as a list of targets to try and     "catch." Alternately, you can look for satellites that interest you, like ISS, Hubble, Envisat, etc. Note:  This method may require     manual or driven movement of camera to try for several targets
+
+
+To record the time and location of passing satellite, use a stopwatch or a smartphone ensure the accuracy of your timing and try to get more than one position if possible. 
 
 At this time, translating basic observation data (time and location) into a format readable by version 0.1 TruSat Prototype requires a relatively advanced workflow, including use of free third-party software, and is not recommended for all but the most committed.
 
