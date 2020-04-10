@@ -27,7 +27,84 @@
 }
 
 small, small a {
+    color: #717171;
     font-size: 12px;
     line-height: 12px;
-    color: #717171;
+}
+
+
+/* Misc. helpers */
+.hide-on-mobile {
+    display: none;
+}
+
+@media only screen and (min-device-width: 600px) {
+    .force-line-break {
+        display: block;
+        height: 1em;
+    }
+}
+
+
+/* Styles for the panel buttons on "start-here" page */
+.panel-set {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .panel-set {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1150px) {
+    .panel-set {
+        flex-direction: column;
+    }
+}
+
+.panel {
+    background-color:  rgb(245, 245, 245);
+    border-radius: 4px;
+    box-shadow:
+        0 2px 2px rgba(0, 0, 0, 0.028),
+        0 6.7px 6.7px rgba(0, 0, 0, 0.042),
+        0 30px 30px rgba(0, 0, 0, 0.07);
+    flex-basis: 33.33%;
+    margin: 0 20px 40px 0;
+}
+
+.panel:hover {
+    background-color:white;;
+    box-shadow:
+    0 4px 4px rgba(0, 0, 0, 0.028),
+    0 12.7px 12.7px rgba(0, 0, 0, 0.042),
+    0 60px 60px rgba(0, 0, 0, 0.07);
+}
+
+.panel h3 {
+    margin: 0 0 10px;
+    text-decoration: underline;
+}
+
+a.panel {
+    text-decoration: none;
+}
+
+.panel__text {
+    padding: 20px 20px 10px;
+}
+
+
+/* Right-floating images on "participate" page */
+@media only screen and (min-device-width: 400px) {
+    .inline-image {
+        width: 200px;
+        float: right;
+        margin: 0 0 10px 30px
+    }
+
 }
