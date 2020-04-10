@@ -19,10 +19,10 @@ All of the pages of the TruSat documentation are written with Markdown - a light
 
 
 2. Now you can begin to update the documentation. Pay attention to the formating of the current documentation while you are making your edits. 
-![UD Step 2](https://raw.githubusercontent.com/TruSat/trusat-learn/blob/master/website/static/img/UD%20Step%203.JPG)
+![UD Step 2](https://github.com/TruSat/trusat-learn/blob/master/website/static/img/UD%20Step%202.JPG?raw=true)
 
 3. Once you have finished updating the documenation, look for the section labeled `Commit changes` towards the bottom of your screen. Here you can add a label and description to explain what changes you have made to the documentation. Fill out this section then click Commit changes to complete your edit. 
-![UD Step 3](https://raw.githubusercontent.com/TruSat/trusat-learn/blob/master/website/static/img/UD%20Step%204.JPG)
+![UD Step 3](https://github.com/TruSat/trusat-learn/blob/master/website/static/img/UD%20Step%203.JPG?raw=true)
 
 4. You will then be taken to a page where you can confirm the changes you have made by starting a pull request. This step allows your updated documentation to be visible to fellow contributors so they can discuss and review the changes you have submitted. After this step is complete, your documenation can then be merged and added to Learn.TruSat.org. 
-![UD Step 4](https://raw.githubusercontent.com/TruSat/trusat-learn/blob/master/website/static/img/UD%20Step%206.JPG)
+![UD Step 4](https://github.com/TruSat/trusat-learn/blob/master/website/static/img/UD%20Step%204.JPG?raw=true)
