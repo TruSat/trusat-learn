@@ -13,9 +13,10 @@ Spotting satellites in the night sky can be a relaxing, rewarding activity. The 
 1. The time at which you observe the satellite cross an imaginary line between two known stars
 2. Your location on Earth when you made this observation (Latitude, Longitude, and Elevation)
 
-Right now, timing a satellite is a relatively manual process and takes some practice. TruSat will continually add features to make this process easier and more enjoyable. You can be the first to know about new features by joining the TruSat Community. And please share your ideas for new features, and your tips for satellite spotting in the TruSat Forum.
+If you’re new to the sport, don’t worry about trying to time a satellite on your first outing. We’ll walk you through a progression of activities to build your skills and help familiarize yourself with the night sky.
 
-If you’re new to the sport, don’t worry about trying to time a satellite on your first outing. We’ll walk you through a progression of activities to build your skills, familiarize yourself with the night sky, and enjoy yourself along the way.
+Right now, timing a satellite is a relatively manual process and takes some practice. But we're working to continually add features to make this process easier.
+
 
 ## Level 1: Spot a satellite in the night sky
 
@@ -31,7 +32,7 @@ The next level is looking at the right place at the right time to see a specific
 
 ### Augmented reality mobile apps
 
-If you happen to be outside at night and want to spot a satellite on a whim, a smartphone app like SkyView (Android and Apple) will do most of the work for you.
+If you happen to be outside at night and want to spot a satellite on a whim, a smartphone app like SkyView ([Android](https://play.google.com/store/apps/details?id=com.t11.skyviewfree&hl=en_US) and [Apple](https://apps.apple.com/us/app/skyview-lite/id413936865)) will do most of the work for you. ([Orbitrack](http://southernstars.com/products/) is another great app with similar features, but there's currently no free version.)
 
 SkyView allows you to search their catalog for a satellite then the AR features of the app point you in the direction of the satellite you’re looking for. Apps like SkyView are best for impromptu satellite spotting sessions.
 
@@ -61,7 +62,7 @@ The International Space Station (ISS) is a good satellite to start with because 
 
 ## Level 3: Time a satellite
 
-This is the narrated, screen recorded video for using Heavens Above:
+This is a narrated, screen recorded video for using Heavens Above to help track and time a satellite:
 
 [![Heavens Above tutorial](http://img.youtube.com/vi/DmSL1MweU7M/0.jpg)](http://www.youtube.com/watch?v=DmSL1MweU7M)
 
@@ -77,4 +78,4 @@ We’ll help walk you through the process and get you set up with the necessary 
 
 ### Satellite Tracking with a Digital Camera
 
-You can use a camera to help spot satellites and record their positions. Here's an intro to the topic.
+You can use a camera to help spot satellites and record their positions. [Here's an intro](photographing-sats) to the topic.
