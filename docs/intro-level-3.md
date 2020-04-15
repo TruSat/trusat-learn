@@ -4,7 +4,7 @@ title: Level 3 - Time a satellite
 sidebar_label: Level 3 - Time a satellite
 ---
 
-<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200414-1559-03.png');"></div>
+<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200415-1434-03.jpg');"></div>
 
 This is a narrated, screen recorded video for using Heavens Above to help track and time a satellite:
 

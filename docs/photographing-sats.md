@@ -4,7 +4,7 @@ title: Intro to photographing satellites
 sidebar_label: Intro to photographing satellites
 ---
 
-<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200414-1559-06.png');"></div>
+<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200415-1434-06.jpg');"></div>
 
 ![Sat streak](https://trusat-assets.s3.amazonaws.com/dslr-photo.jpg)
 

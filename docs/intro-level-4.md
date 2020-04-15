@@ -4,7 +4,7 @@ title: Level 4 - Time a satellite
 sidebar_label: Level 4 - Format data for submission
 ---
 
-<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200414-1559-04.png');"></div>
+<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200415-1434-04.jpg');"></div>
 
 Once you have timed a satellite, the final step is to input your time and location data into software that will calculate an initial orbit determination (IOD).
 

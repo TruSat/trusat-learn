@@ -3,7 +3,7 @@ id: browser-tools
 title: Step-by-step tutorial for satellite tracking
 sidebar_label: Step-by-step tutorial for satellite tracking
 ---
-<img src="/img/learning_hub-illustrations-covers-200414-1559-05.png" />
+<img src="/img/learning_hub-illustrations-covers-200415-1434-05.jpg" />
 
 
 ## Parts required:

@@ -4,7 +4,7 @@ title: Software for satellite tracking
 sidebar_label: Software for satellite tracking
 ---
 
-<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200414-1559-09.png');"></div>
+<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200415-1434-09.jpg');"></div>
 
 ## Tracking sats with only a web browser
 Our [step-by-step tutorial](browser-tools) shows how to track satellites without installing any software beyond your web browser. Since satellite tracking software may be tricky for some to set up, we recommend trying this browser-only appraoch first.

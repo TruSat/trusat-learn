@@ -4,7 +4,7 @@ title: Level 1 - Spot a satellite in the night sky
 sidebar_label: Level 1 - Intro
 ---
 
-<img src="/img/learning_hub-illustrations-covers-200414-1559-01.png" />
+<img src="/img/learning_hub-illustrations-covers-200415-1434-01.jpg" />
 
 Spotting satellites in the night sky can be a relaxing, rewarding activity. The serenity of contemplating the night sky, the thrill of catching a satellite passing by at 28,000kph.
 

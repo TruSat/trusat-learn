@@ -10,7 +10,7 @@ A set of lessons to introduce you to the process
 <div class="panel-set panel-set--marquee">
     <a href="intro-level-1" class="panel">
         <div class="panel__cover">
-            <img src="/img/learning_hub-illustrations-covers-200414-1559-01.png" />
+            <img src="/img/learning_hub-illustrations-covers-200415-1434-01.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -23,7 +23,7 @@ A set of lessons to introduce you to the process
 <div class="panel-set">
     <a href="intro-level-2" class="panel">
         <div class="panel__cover">
-            <img src="/img/learning_hub-illustrations-covers-200414-1559-02.png" />
+            <img src="/img/learning_hub-illustrations-covers-200415-1434-02.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -33,7 +33,7 @@ A set of lessons to introduce you to the process
     </a>
     <a href="intro-level-3" class="panel">
         <div class="panel__cover">
-            <img src="/img/learning_hub-illustrations-covers-200414-1559-03.png" />
+            <img src="/img/learning_hub-illustrations-covers-200415-1434-03.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -43,7 +43,7 @@ A set of lessons to introduce you to the process
     </a>
     <a href="intro-level-4" class="panel">
         <div class="panel__cover">
-            <img src="/img/learning_hub-illustrations-covers-200414-1559-04.png" />
+            <img src="/img/learning_hub-illustrations-covers-200415-1434-04.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -58,7 +58,7 @@ This lesson walks you through each step of the process for making an observation
 <div class="panel-set panel-set--marquee">
     <a href="browser-tools" class="panel">
         <div class="panel__cover">
-            <img src="/img/learning_hub-illustrations-covers-200414-1559-05.png" />
+            <img src="/img/learning_hub-illustrations-covers-200415-1434-05.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -73,7 +73,7 @@ Go deeper into lessons focused on specific satellite-tracking subjects.
 <div class="panel-set">
     <a href="photographing-sats" class="panel">
         <div class="panel__cover">
-            <img src="/img/learning_hub-illustrations-covers-200414-1559-06.png" />
+            <img src="/img/learning_hub-illustrations-covers-200415-1434-06.jpg" />
         </div>
         <div class="panel__text">
             <h3>
@@ -83,7 +83,7 @@ Go deeper into lessons focused on specific satellite-tracking subjects.
     </a>
     <a href="software" class="panel">
         <div class="panel__cover">
-            <img src="/img/learning_hub-illustrations-covers-200414-1559-07.png" />
+            <img src="/img/learning_hub-illustrations-covers-200415-1434-07.jpg" />
         </div>
         <div class="panel__text">
             <h3>

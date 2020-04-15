@@ -4,7 +4,7 @@ title: Level 2 - Find a specific satellite
 sidebar_label: Level 2 - Find a specific satellite
 ---
 
-<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200414-1559-02.png');"></div>
+<div class="header--tutorial" style="background-image: url('/img/learning_hub-illustrations-covers-200415-1434-02.jpg');"></div>
 The next level is looking at the right place at the right time to see a specific satellite. There are two easy methods to determine when and where to look in the night sky:
 
 ### Augmented reality mobile apps
