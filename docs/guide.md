@@ -5,7 +5,7 @@ sidebar_label: Guide home
 ---
 
 ## The basics
-A set of lessons to introduce you to the process
+A set of lessons to introduce you to the process of satellite tracking:
 
 <div class="panel-set panel-set--marquee">
     <a href="intro-level-1" class="panel">
@@ -53,8 +53,8 @@ A set of lessons to introduce you to the process
     </a>
 </div>
 
-## Step-by-step tutorial
-This lesson walks you through each step of the process for making an observation without any equipment except for an internet connection.
+## Tutorial
+A detailed guide for the proccess of making an observation without any equipment except for an internet connection:
 <div class="panel-set panel-set--marquee">
     <a href="browser-tools" class="panel">
         <div class="panel__cover">
@@ -69,7 +69,7 @@ This lesson walks you through each step of the process for making an observation
 </div>
 
 ## Topics of interest
-Go deeper into lessons focused on specific satellite-tracking subjects.
+Go deeper into lessons focused on specific satellite-tracking subjects:
 <div class="panel-set">
     <a href="photographing-sats" class="panel">
         <div class="panel__cover">
