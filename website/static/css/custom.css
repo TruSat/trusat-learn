@@ -126,3 +126,9 @@ a.panel {
     }
 
 }
+
+.header--tutorial {
+    height: 180px;
+    background-position: center;
+    margin-bottom: 30px;
+}

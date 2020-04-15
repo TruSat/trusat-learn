@@ -8,7 +8,10 @@
       "design"],
     "Satellite Tracking Guide": [
       "guide",
-      "high-level-guide",
+      "intro-level-1",
+      "intro-level-2",
+      "intro-level-3",
+      "intro-level-4",
       "browser-tools",
       "photographing-sats"
     ],
