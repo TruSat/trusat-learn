@@ -1,8 +1,10 @@
 ---
 id: browser-tools
-title: Tracking a Satellite with browser tools
-sidebar_label: Tracking a Satellite with browser tools
+title: Step-by-step tutorial for satellite tracking
+sidebar_label: Step-by-step tutorial for satellite tracking
 ---
+<img src="/img/learning_hub-illustrations-covers-200414-1559-05.png" />
+
 
 ## Parts required:
 
