@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-sidebar_label: Overview
+sidebar_label: TruSat Overview
 ---
 
 To view the TruSat white paper in PDF form, you can read and download it [here](https://trusat-assets.s3.amazonaws.com/TruSat+White+Paper_v3.0.pdf).

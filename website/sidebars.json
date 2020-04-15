@@ -7,9 +7,14 @@
       "updating", 
       "design"],
     "Satellite Tracking Guide": [
-      "high-level-guide",
+      "guide",
+      "intro-level-1",
+      "intro-level-2",
+      "intro-level-3",
+      "intro-level-4",
       "browser-tools",
-      "photographing-sats"
+      "photographing-sats",
+      "software"
     ],
     "About TruSat": [
       "overview",
