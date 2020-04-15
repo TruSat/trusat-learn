@@ -8,7 +8,7 @@ sidebar_label: Start here
 
 <!-- Custom buttons: -->
 <div class="panel-set">
-    <a href="high-level-guide" class="panel">
+    <a href="guide" class="panel">
         <div class="panel__cover">
             <img src="/img/illustration-observation2-640px.jpg" />
         </div>
