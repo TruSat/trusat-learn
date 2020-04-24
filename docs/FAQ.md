@@ -46,21 +46,21 @@ TruSat is also designed to provide opportunities for concerned citizens to make 
 
 ### How do I track satellites?
 
-This [tutorial](https://trusat.org/how) will walk you through it.
+This [tutorial](https://learn.trusat.org/docs/guide) will walk you through it.
 
 ### What does “prototype” mean in the context of TruSat?
 
-The version 0.1 TruSat software released on October 21, 2019 is an engineering prototype intended for testing and refining core elements for generating orbit predictions from observations of a satellite from multiple points around Earth. This early prototype has only a fraction of TruSat’s planned features and functionality. Notably absent in this first release are features for easing the process of making and submitting satellite observations; it relies on a relatively manual workflow for formatting observation data for submission. Accordingly, we recommend only the most committed “test pilots” submit satellite observations through this prototype. If you want to be a test pilot, [sign up](https://trusat.org/join)
+The version 0.1 TruSat software released on October 21, 2019 is an engineering prototype intended for testing and refining core elements for generating orbit predictions from observations of a satellite from multiple points around Earth. This early prototype has only a fraction of TruSat’s planned features and functionality. Notably absent in this first release are features for easing the process of making and submitting satellite observations; it relies on a relatively manual workflow for formatting observation data for submission. 
 
 ### Where is the smartphone app for tracking satellites?
 
 The smartphone app depicted in the TruSat video is a representation of how accessible and seamless we aim to make the process of making and reporting satellite observations. We are exploring several avenues of utilizing ubiquitous consumer devices to automate and simplify the process as much as possible, including smartphone apps and features for automatically extracting Initial Orbit Determination data from digital photographs. ConsenSys Space is planning to host hackathons to build many of these features. Whether you want to share your ideas for these features or help to build them, we hope you’ll [join the TruSat Community](https://trusat.org/join).
 
-In the meantime, several smartphone apps such as SkyView offer augmented reality features that take much of the manual work out of finding a satellite in the night sky. [See how you can use a smartphone app to find satellites here](https://trusat.org/how).
+In the meantime, several smartphone apps such as SkyView offer augmented reality features that take much of the manual work out of finding a satellite in the night sky. [See how you can use a smartphone app to find satellites here](https://learn.trusat.org/docs/guide).
 
 ### What equipment do I need to observe a satellite?
 
-While many satellites are visible to the naked eye in locations without much light pollution, a pair of binoculars and accurate clock will enable you to reliably observe and track satellites. As explained in these [instructional materials](https://trusat.org/how), a range of smartphone apps and online resources will tell you when and where in the sky to look, based on your location. If you have a digital SLR camera and tripod, you can use it to make satellite observations, as explained here.
+While many satellites are visible to the naked eye in locations without much light pollution, a pair of binoculars and accurate clock will enable you to reliably observe and track satellites. As explained in these [instructional materials](https://learn.trusat.org/docs/guide), a range of smartphone apps and online resources will tell you when and where in the sky to look, based on your location. If you have a digital SLR camera and tripod, you can use it to make satellite observations, as explained here.
 
 ### What is the secret that was emailed to me when I created an account?
 
@@ -85,34 +85,23 @@ Features and functionality that ease the process of making and submitting satell
 
 TruSat’s algorithms for calculating orbits and confidence assessments will be continuously refined by TruSat’s open source community.
 
-The version 0.2 release will add “Mission” functionality, enabling space sustainability advocates to prioritize satellites for observation according to sustainability, in accordance with the [TruSat Charter](https://trusat.org/charter).
-
 The TruSat roadmap contemplates a progressive decentralization of the TruSat system and its governance, in connection with a migration to Ethereum mainnet. Migration to Ethereum mainnet will enable a range of enhancements to security, trust architecture, and the introduction of extrinsic incentives for participation.
 
 ### How can I contribute to TruSat other than by making satellite observations?
 
 TruSat depends on the diverse skillsets of its global Open Source Community, from developing new software features to creating content in multiple languages to enable people around the world to participate and contribute. To learn more about these opportunities, please [join the Community](https://trusat.org/join).
 
-If you wish to further explore how to contribute, please contact ConsenSys Space Community Manager, Kim Macharia at **Kim.Macharia@consensys.net**.
+[Visit here](https://learn.trusat.org/docs/participate#3-support-the-mission)to  explore how to contribute.
 
-## Who is behind TruSat?
-
-### Who built TruSat?
-
-ConsenSys Space developed the version 0.1 release of TruSat, and is also developing version 0.2. Community involvement will become an integral part of TruSat software development beginning in January 2020.
 
 ### How does TruSat make money?
 
 As the TruSat.org domain signifies, TruSat is designed to generate a global public good rather than profit.
 
-ConsenSys has broad business interests in developing and growing the Ethereum ecosystem. Pioneering applications of Ethereum that illuminate entirely new solution spaces for old, stubborn problems benefit the ecosystem. ConsenSys believes that enabling large-scale, global collective action is among the most transformative potential applications of Ethereum blockchain technology, and is investing in solving space-related collective action challenges as R&D to accelerate the realization of this potential.
-
 ### How is TruSat governed?
 
 The [TruSat Charter](https://trusat.org/charter) specifies the governance arrangements for the TruSat System and Open Source Community. The Charter will be regularly revised to meet the governance needs of the Community and to give effect to its Guiding Principles. Each version of the Charter is identified by an Epoch: a period measured in time or milestones in which that version is in effect.
 
-Governance of the TruSat Community will be progressively decentralized. Epochs 1 and 2 are experimental “incubation” periods for both the Software and the Community. Beginning in Epoch 2, Open Source Community contributions will be integral to building out the Software Roadmap. Whereas Community governance will initially be based upon a “benevolent leader” model—in which ConsenSys Space makes decisions in consultation with the TruSat Partners—the governance model will progressively evolve toward a “meritocratic model” in step with the growth of Community contributions to the software.
 
-Curious for a technical deep dive into how TruSat works? Check out the TruSat [white paper](https://trusat.org/whitepaper)
+Have any other questions? Please bring them to the [Help Desk thread topic of the TruSat Forum](https://discuss.trusat.org/t/trusat-help-desk/15/30)
 
-Have any other questions? Reach out to us at **help@beta.trusat.org**
