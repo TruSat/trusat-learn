@@ -6,11 +6,11 @@ sidebar_label: TruSat Charter
 
 ## Overview and Definitions
 
-TruSat is an open source, citizen-powered system for creating a trusted record of satellite orbits in service of the long-term sustainability of outer space activities. This TruSat System comprises two main elements: Satellite Observers, who make and report satellite observations, and TruSat Softwarethat autonomously processes observations of a satellite from multiple points around Earth into an orbit prediction and confidence assessment of that prediction. Space Sustainability Advocates1may task the TruSat System to observe satellites of interest for sustainability purposes,2andutilize the resulting data.
+TruSat is an open source, citizen-powered system for creating a trusted record of satellite orbits in service of the long-term sustainability of outer space activities. This TruSat System comprises two main elements: Satellite Observers, who make and report satellite observations, and TruSat Software that autonomously processes observations of a satellite from multiple points around Earth into an orbit prediction and confidence assessment of that prediction. Space Sustainability Advocates may task the TruSat System to observe satellites of interest for sustainability purposes and utilize the resulting data.
 
 The TruSat System is developed and maintained by the TruSat Open Source Community. In addition to developing the TruSat Software, this global community of Contributors provide valuable input on feature roadmaps, author documentation and other content that enable participation by a diverse range of Contributors, and translate them into multiple languages.
 
-The TruSat Charter specifies the governance arrangements for the TruSat System and Open Source Community. The Charter will be regularly revised to meet the governance needs of the Community and to give effect to the Principles enumerated in Section 1. Each version of the Charter is identified by an Epoch: a period measured in time or milestones in which that version is in effect. At the conclusion of an Epoch, the Charter will be revised in accordance with the procedures it specifies. Epoch1 will remain in effect until the release of version 0.2 of the TruSat Software, at which point the Charter will be revised for Epoch 2. As specified in Section 3, the Epoch 2 revisions will specify transparent processes for tasking the TruSat System—functionality to be introduced in the v0.2 release—and a more detailed governance framework for open source software development.
+The TruSat Charter specifies the governance arrangements for the TruSat System and Open Source Community. The Charter will be regularly revised to meet the governance needs of the Community and to give effect to the Principles enumerated in Section 1. Each version of the Charter is identified by an Epoch: a period measured in time or milestones in which that version is in effect. At the conclusion of an Epoch, the Charter will be revised in accordance with the procedures it specifies. Epoch 1 will remain in effect until the release of version 0.2 of the TruSat Software, at which point the Charter will be revised for Epoch 2. As specified in Section 3, the Epoch 2 revisions will specify transparent processes for tasking the TruSat System—functionality to be introduced in the v0.2 release—and a more detailed governance framework for open source software development.
 
 Governance of the TruSat Community will be progressively decentralized, as specified in Section 1. Epochs 1 and 2 are experimental “incubation” periods for both the Software and the Community. The v0.1 release of the Software was developed by ConsenSys Space, which is also developing v0.2. Beginning in Epoch 2, Open Source Community contributions will be integral to building out the Software Roadmap. Whereas Community governance will initially be based upon a “benevolent leader” model—in which ConsenSys Space makes decisions in consultation with the TruSat Partners—the governance model will progressively evolve toward a “meritocratic model” in step with the growth of Community contributions to the software.
 
@@ -22,7 +22,7 @@ Governance of the TruSat Community will be progressively decentralized, as speci
 
 **C. Transparency**: The TruSat System is transparent in that the algorithms for processing satellite observations into an orbit prediction are freely accessible (e.g,. source code in the TruSat software repos, narrative explanation in White Paper). TruSat Community governance will remain transparent by publishing the governance arrangements in effect in the TruSat Charter, accessible at TruSat.org.
 
-**D. Open Source licensing**: The TruSat Software is made available under open source licenses.4All Contributions must be compliant with the applicable open source license.
+**D. Open Source licensing**: The TruSat Software is made available under open source licenses. All Contributions must be compliant with the applicable open source license.
 
 **E. Democratizing and Diversifying Space Endeavors**: Creating new opportunities for global public participation in space endeavors, and reducing barriers to participation.
 
@@ -39,13 +39,13 @@ Governance of the TruSat Community will be progressively decentralized, as speci
 3. Professor Moriba Jah, University of Texas at Austin
 4. Society of Women in Space Exploration (SWISE)
 
-**B.** The TruSat Partners commit to maintaining and advancing the TruSat System and building the Open Source Community as follows:1.Building the Open Source Community by introducing TruSat to potential Contributors.2.Serving as liaisons with Contributor and User communities, representing their interests and feedback in the feature development process.3.Ensuring TruSat’s alignment with the needs of Space Sustainability Advocates, and that TruSat’s capabilities are accounted for in the development of space sustainability standards.4.Partners may, in their discretion, sponsor initiatives to build the TruSat Software and Community, such as hackathons, bounties, and grants of observing hardware.s
+**B.** The TruSat Partners commit to maintaining and advancing the TruSat System and building the Open Source Community as follows:1.Building the Open Source Community by introducing TruSat to potential Contributors.2.Serving as liaisons with Contributor and User communities, representing their interests and feedback in the feature development process.3.Ensuring TruSat’s alignment with the needs of Space Sustainability Advocates, and that TruSat’s capabilities are accounted for in the development of space sustainability standards.4.Partners may, in their discretion, sponsor initiatives to build the TruSat Software and Community, such as hackathons, bounties, and grants of observing hardware.
 
 **C.** In Epoch 1, ConsenSys Space exercises decision authority with respect to the TruSat Software in consultation with the TruSat Partners.
 
 **D.** Individuals and institutions wishing to undertake the commitments of TruSat Partners and help to implement the Principles of Section 1, may be accepted as a TruSat Partner by consensus of the existing Partners.
 
-## Section 3: Process andTimeline for Epoch 2 Amendments
+## Section 3: Process and Timeline for Epoch 2 Amendments
 
 **A.** The Partners intend to adopt an Epoch 2 package of amendments to the Charter in connection with the release of version 0.2 of the TruSat Software. The Epoch 2 amendments are expected to add the following to the Charter:
 
