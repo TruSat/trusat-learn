@@ -5,7 +5,7 @@ sidebar_label: Design
 ---
 
 ## Contributing to TruSat's design
-TruSat community members are free to contribute to TruSat's strategy and design. Common cases might include proposing UX concepts or UI specifications. 
+TruSat community members are free to contribute to TruSat's strategy and design. Common cases might include proposing UX concepts or UI specifications. To join the discussion on the evolving design needs of TruSat, visit the [TruSat Discord Server](https://discord.gg/SC76Wph).
 
 You may use your design tool of choice. TruSat’s initial designs were made via the free tier of Figma, a browser-based design tool.
 
