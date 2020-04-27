@@ -4,8 +4,6 @@ title: TruSat's Decleration of Independence
 sidebar_label: Decleration of Independence
 ---
 
-# TruSat's Decleration of Independence
-
 ### Tl;dr: 
 - TruSat is now an independent, volunteer-led open source project.  
 - The TruSat community needs your help, and it’s easy to get involved.
@@ -14,7 +12,7 @@ sidebar_label: Decleration of Independence
 
 ### Dear Friends,
 
-We are delighted to share that TruSat is now an independent, community-led open source project. With the adoption of the Epoch 2.0 TruSat Charter, control of the TruSat project has transitioned from ConsenSys Space to a community of volunteer contributors. As a 100% community-powered project, TruSat needs your talents more than ever. And we just released v1.X.X to make it easier and more efficient to join the global community of contributors.
+We are delighted to share that TruSat is now an independent, community-led open source project. With the adoption of the Epoch 2.0 TruSat Charter, control of the TruSat project has transitioned from ConsenSys Space to a community of volunteer contributors. As a 100% community-powered project, TruSat needs your talents more than ever. And we just released v1.0.1 to make it easier and more efficient to join the global community of contributors.
 
 The transition of TruSat to a community-managed project  was accelerated by the extraordinary economic conditions we’re living through, which has led ConsenSys Space to suspend its operations. Determined to give TruSat a chance to survive and thrive beyond ConsenSys Space, the original team behind TruSat will continue to support the project beyond their time with ConsenSys. Together with committed contributors, the original team has formed a Project Management Committee to carry the project forward.  We invite you to join us and develop TruSat into a valuable tool for preserving the long-term sustainability of spaceflight. TruSat will be what we make of it.
   
