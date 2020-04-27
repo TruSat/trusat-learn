@@ -4,7 +4,7 @@ title: Earth Space Program
 sidebar_label: Earth Space Program
 ---
 
-## VI. TruSat as a First Step Toward Earth’s Space Program
+## VI. Broader Vision
 
 ### VI.A. The Guiding Vision of Earth’s Space Program
 
@@ -12,9 +12,7 @@ The exploration and development of outer space interests a great many people acr
 
 Much of the dazzling progress in space technology since the turn of the century can be attributed to billionaires so impatient with the pace of government space programs that they invested their fortunes and talents in starting their own space programs. Impatience with the pace of progress, good ideas, and a desire to contribute are not limited to billionaires, however; they are but the tip of a much larger iceberg. And yet the capital intensity of space endeavors keeps most would-be contributors beneath the water; doing almost anything in space requires a level of capital only a billionaire or national government could marshal. What most individuals could contribute would, by itself, be such a drop in the bucket to discourage trying.
 
-ConsenSys Space was founded on the belief that creating mechanisms to aggregate and coordinate the human and financial capital wishing to contribute to space endeavors would unlock new solutions to the most stubborn challenges holding back progress in the exploration and development of outer space. The co-founders are well acquainted with these challenges—from the long-term sustainability of spaceflight to the economic hurdles to starting a space venture—having led governmental, intergovernmental, and private space initiatives.
-
-ConsenSys Space is guided by a vision for Earth’s Space Program: a global, citizen-led space program accountable to and controlled by its community of contributors. It is a vision for bottom-up collective action on an unprecedented scale, in which individual contributions, modest in isolation, are assembled into space activities on a scale only a handful of governments and billionaires have managed to date.
+TruSat's founding team was guided by a vision for Earth’s Space Program: a global, citizen-led space program accountable to and controlled by its community of contributors. It is a vision for bottom-up collective action on an unprecedented scale, in which individual contributions, modest in isolation, are assembled into space activities on a scale only a handful of governments and billionaires have managed to date.
 
 The Ethereum blockchain presents a new technological foundation on which to build such Earth-scale collective action. Traditionally, individuals contributing time or money to a large endeavor do so on their trust in their fellow collaborators, or a central institution (a non-profit, company, or government). This significantly limits the scale of collaborative projects. At the largest possible scale—accommodating contributions from every country on Earth—it is impossible to know (and thus trust) a significant portion of one’s fellow contributors, and near-impossible for such a large, geographically distributed group of stakeholders to agree on a central entity trusted by all. At a fundamental level, Ethereum technology dispenses with the need for a trusted entity, or even to know one’s collaborators. In place of trusted individuals and institutions are transparent rules that are guaranteed to execute.
 
@@ -42,9 +40,9 @@ As an experiment in democratizing space endeavors, TruSat will reduce the knowle
 - Orient binoculars or DSLR at the appropriate star pattern, and record the time the satellite crosses an imaginary line drawn between two stars;
 - Utilize imaging-based software such as sattools/stvid to calculate an Initial Orbit Determination (“IOD”) based on the observer’s location (GPS coordinates) and the timing of the image-detected satellite observation.
 
-The initial release of TruSat, intended primarily to test and refine the Proof of Satellite software engine, will largely rely upon the above workflow, supplemented by tutorial resources. For some, the sporting element of “hunting” satellites in the night sky contributes to the appeal of the activity, scaling to a global, diverse pool of contributors will likely require a relatively simplified, seamless process for making satellite observations. As described above in the TruSat Product Roadmap, features that ease the process of making and observing satellites will be priorities for subsequent releases.
+The initial releases of TruSat, intended primarily to test and refine the Proof of Satellite software engine, will largely rely upon the above workflow, supplemented by tutorial resources. For some, the sporting element of “hunting” satellites in the night sky contributes to the appeal of the activity, scaling to a global, diverse pool of contributors will likely require a relatively simplified, seamless process for making satellite observations. As described above in the TruSat Product Roadmap, features that ease the process of making and observing satellites will be priorities for subsequent releases.
 
-TruSat’s product roadmap contemplates decentralization on multiple levels in service of trust and resilience. At the software level, the TruSat Partners aim to implement TruSat on Ethereum mainnet, with decentralized, on-chain governance. Once completed, priorities for observation, as one example, will be determined by the TruSat community of contributors. In the initial, experimental phases, TruSat will be implemented on the Rinkeby testnet, and governed by the TruSat Partners pursuant to the TruSat Charter.
+TruSat’s  roadmap contemplates decentralization on multiple levels in service of trust and resilience. At the software level, the community aims to implement TruSat on Ethereum mainnet, with decentralized, on-chain governance. Once completed, priorities for observation, as one example, will be determined by the TruSat community of contributors. 
 
 TruSat’s decentralized architecture will help it to surmount the trust challenges of existing SSA networks. Trust in the SSA data generated by TruSat is not dependent on trust in any institution (whether ConsenSys Space or any of its partners). Every aspect of TruSat’s software and underlying algorithms will be open and transparent, and its SSA data this subject to verification. Trust but verify.
 
