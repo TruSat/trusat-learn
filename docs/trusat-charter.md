@@ -1,7 +1,7 @@
 ---
-id: trusat-charter
+id: governance
 title: TruSat Charter 
-sidebar_label: TruSat Charter
+sidebar_label: Governance (TruSat Charter)
 ---
 Epoch 2.0
 ## Introduction
