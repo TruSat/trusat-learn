@@ -1,7 +1,7 @@
 ---
 id: earth-space-program
 title: Earth Space Program
-sidebar_label: Earth Space Program
+sidebar_label: Broader Vision
 ---
 
 ## VI. Broader Vision
