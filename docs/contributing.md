@@ -4,7 +4,7 @@ title: Contributing Code
 sidebar_label: Contributing Code
 ---
 
-The core maintainers of the TruSat [codebase](https://github.com/trusat) very much welcome contributions, especially those that tackle [open issues](https://github.com/trusat/trusat-frontend/issues)! If you wish to contribute, either open an issue then make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or make a pull request against a currently open issue.
+The core maintainers of the TruSat [codebase](https://github.com/trusat) very much welcome contributions, especially those that tackle [open issues](https://github.com/trusat/trusat-frontend/issues)! If you wish to contribute, either open an issue then make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) or make a pull request against a currently open issue. We also invite you to join the [TruSat Discord Server](https://discord.gg/SC76Wph) to engage in real-time conversation around the development needs of TruSat.
 
 ## Catching bugs / Requesting features
 

@@ -38,16 +38,13 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl("start-here", this.props.language)}>
-              TruSat Community
-            </a>
-            <a href={this.docUrl("prize-campaign", this.props.language)}>
-              Prize Campaign
+              Start Here
             </a>
             <a href={this.docUrl("high-level-guide", this.props.language)}>
               Satellite Tracking Guide
             </a>
             <a href={this.docUrl("overview", this.props.language)}>
-              Project Background
+              About TruSat
             </a>
             <a href={this.docUrl("your-account", this.props.language)}>
               The TruSat App
@@ -61,6 +58,13 @@ class Footer extends React.Component {
               rel="noreferrer noopener"
             >
               Forum
+            </a>
+            <a
+              href="https://discord.gg/uYvjQe"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Discord Chat
             </a>
             <a
               href="https://twitter.com/Consensys_Space"
