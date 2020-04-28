@@ -28,6 +28,8 @@ The TruSat Project Management Committee:
 - Brian Israel
 - Chris Lewicki
 - Denis Zaytsev
+- John Gribbin
+- Kenan O'Neal
 - Kim Macharia
 - Michael Deal
 - Robert Keenan
