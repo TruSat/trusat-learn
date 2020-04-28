@@ -8,7 +8,7 @@ The core maintainers of the TruSat [codebase](https://github.com/trusat) very mu
 
 ## Catching bugs / Requesting features
 
-If you find a bug when using TruSat please let us know! If you are familiar with GitHub you can help by opening an issue (making sure to label it as a `bug`). Similarly if you have a new feature that you like to see added to TruSat then open an issue, explain the feature and add the label `enhancement`
+If you find a bug when using TruSat please let us know! If you are familiar with GitHub you can help by opening an issue (making sure to label it as a `bug`). Similarly if you have a new feature that you like to see added to TruSat then open an issue, explain the feature and add the label `enhancement`.
 
 ## Branch naming convention
 
