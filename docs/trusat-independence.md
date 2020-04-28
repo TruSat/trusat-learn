@@ -31,3 +31,4 @@ The TruSat Project Management Committee:
 - Kim Macharia
 - Michael Deal
 - Robert Keenan
+
