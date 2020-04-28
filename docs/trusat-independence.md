@@ -30,3 +30,4 @@ The TruSat Project Management Committee:
 - Denis Zaytsev
 - Kim Macharia
 - Michael Deal
+- Robert Keenan
