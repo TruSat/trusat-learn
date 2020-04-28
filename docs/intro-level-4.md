@@ -10,6 +10,4 @@ Once you have timed a satellite, the final step is to input your time and locati
 
 At this time, translating basic observation data (time and location) into a format readable by version 0.1 TruSat Prototype requires a relatively advanced workflow, including use of free third-party software, and is not recommended for all but the most committed.
 
-If you are that person and want to become a TruSat Alpha Test Pilot, please sign up here:
-
-We’ll help walk you through the process and get you set up with the necessary software tools.
+Join the [TruSat Forum](http://discuss.trusat.org) to ask questions or offer tips on how to improve your satellite tracking skills. 
