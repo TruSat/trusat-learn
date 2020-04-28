@@ -30,8 +30,12 @@ We’ve identified this as the highest-leverage feature to increase accessibilit
 - Creates a table of upcoming and potentially visible objects based on a  User’s station location and Heaven’s Above pass prediction data.
  
 **TruSat Mobile Capture**
+
+[This deck](https://docs.google.com/presentation/d/1JCeppogLCg3CWWcW85AEmiAlnRlNtmkuB3gD5xf85eM/edit#slide=id.g745d18b404_0_64) illustrates some broad design concepts for a TruSat mobile app.
 - IOS/Android app for location-based mobile observations
-- Link to wireframe
+- [Desing wireframe sketches](https://www.figma.com/file/ZhuhQePQlZ3TuTbnlvcZjH/TruSat---Capture-Observations-UX?node-id=6%3A2915)
+
+<img style="max-width: 500px;" src="/img/trusat-GalaxyS10_Mock--cropped--200420-0014b.gif" alt="Design concept mockup">
  
 **Direct tasking of motorized, software-enabled consumer telescopes or scriptable robotic observatories**
 - Integration via INIDIHUB or similar application connects a network of observation stations and the data they produce.
