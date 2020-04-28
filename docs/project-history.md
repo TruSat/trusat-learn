@@ -13,7 +13,7 @@ TruSat was initially designed by ConsenSys Space.  With TruSat’s founding Part
 <img src="/img/TruSat-Launch-Event.jpg" />
 
 
-<a href = "website/static/TruSat-Charter-Epoch-1-Signed.pdf">Epoch 1 Charter</a>
+<a href = "https://trusat-learn-assets.s3.amazonaws.com/TruSat-Charter-Epoch-1-Signed.pdf">Epoch 1 Charter</a>
 
 
 In April of 2020, with the adoption of the [Epoch 2.0 TruSat Charter](trusat-charter.md), TruSat became an independent open source project, governed by its community of volunteer contributors.
