@@ -4,7 +4,7 @@ title: Technical Overview of the Proof of Satellite Software Engine
 sidebar_label: Technical Overview of the Proof of Satellite Software Engine
 ---
 
-## III.Technical Overview of the Proof of Satellite Software Engine
+## Technical Overview of the Proof of Satellite Software Engine
 
 The technical problem to which the Proof of Satellite software engine (“PofSat”) is addressed is proving a satellite’s orbital characteristics from individual observations that are not alone trustworthy. By leveraging the immutable characteristics of “on-chain” transactions, the PofSat engine is designed to be a substantially autonomous, decentralized capability, which can produce useful results without central moderation.
 
@@ -24,7 +24,7 @@ The Proof of Satellite engine leverages two features of Earth orbiting objects:
 
 Because of this, public trust ina prediction of where the satellite will be, according to the physics of orbital mechanics, can besuccessively verified by observations that the satellite is behaving (orbiting) as predicted. New observations have the potential to improve confidence in the orbit predictionas well as confirm prior estimates of it for purposes of assessing the performance of algorithms, observers and specific techniques contributing to these estimates.
 
-### III.A.Confidence Factors
+### Confidence Factors
 
 Beyond leveraging orbital mechanics and successive observations of a satellite from multiple points on Earth, the initial release will utilize the following confidence factors to automatically sort orbit predictions in the catalog into six confidence levels. Unlike the publicly-available SSA data from the U.S. Government—which discloses neither sensor data nor algorithms, citing national security reasons—the factors and evolving algorithms for weighting them in the TruSat catalog will always be transparent. By providing the confidence data and supplying the code which determines it via open-source, TruSat data users receive a confidence assessment, and also the means of understanding how the system reached that assessment. The factors incorporated in these types of algorithmic ranks are anticipated to be subjects of future community governance activities, when the platform is able to accommodate on-chain governance to elect specific versions of new algorithms.
 
@@ -46,7 +46,7 @@ Based upon these factors, PofSat will automatically sort satellites in the catal
 
 Users of the TruSat catalog may sort satellites by confidence level for a variety of purposes.Among them, satellite observers may wish to prioritize their observations to increase confidence in relatively low-confidence predictions by submitting additional observations on satellites rated (3) or below
 
-### III.A.1. Time -Recency of Observation
+### Time -Recency of Observation
 
 As introduced above, the confidence in a satellite’s orbit decays from the influence of perturbing effects on the satellite’s orbit, as well as limitations in the chosen models used to propagate and communicate future predictions of the satellite’s orbit. For the initial version of this algorithm, we are implementing the SGP4/SDP4/SGP8 <small>2</small> algorithms which are optimized for results in the vicinity of the time epoch for which they are produced.
 
@@ -54,7 +54,7 @@ Excluding spacecraft maneuvers from perturbations, orbit knowledge of objects in
 
 For the initial version, the weight factor on “time” will be determined empirically.
 
-### III.A.2. Observer Diversity
+### Observer Diversity
 
 The PofSatengine depends on access to the physical coordinates from which observations are made, provided directly by the user. The combination of the “angles only” measurements of a satellite, and the location from where they were made are necessary inputs in using these measurements to determine a revised orbit estimate. This cannot be achieved without access to both pieces of data.
 
@@ -64,7 +64,7 @@ In addition to a geographic diversity of observations ability to improve the acc
 
 Theoretically, if all the observers in Amsterdam were to conspire to make predictions which benefited themselves, and increased their rank or perpetuate a version of the catalog for their own objectives, we would be motivated to incorporate and provide weight to observations which were linked to allegiance to Amsterdam, or were distinct from it. While to first order, it may seem sufficient to apply this weighting based on these users’ geographic coordinates, their ability to acquire observations in remote locales (say, through telescope-for-rent services such as iTelescope, Slooh, or Lightbuckets <small>3</small>) could easily evade this weighting. To be able to implement this type of “faction diversity” may require some amount of Know-Your-Customer efforts (KYC) in order to gain third party confidence of the identity and affiliations of an observer, and as a result is scoped for implementation later in the roadmap.
 
-### III.A.3.User Rank
+### User Rank
 
 Certain efficiencies can be realized by taking into account the performance history of an observer, and an assumed desire onthat user’s part to obtain a positive ranking within the system, and for the system to provide a beneficial result for the community. The ultimate outcome in evaluating a user’s relative ranking is how their observations relate to verifiable accurate results as observed, and subsequently contributed by other users.
 
@@ -92,7 +92,7 @@ Details of the user rank algorithm are being finalized for the 0.1release of the
 
 As described in the roadmap at Section V, successive releases will introduce extrinsic incentives for observing satellites.
 
-### III.A.4. Observation Trace-ability and Audit
+### Observation Traceability and Audit
 
 In the post v0.1roadmap for TruSat will be the ability to accommodate the raw data (position observations of satellites) fusing a facility like IPFS <small>4</small> to store it in a distributed and immutable fashion. Semi-automated open source image object identification and observation reporting capabilities already exist, in projects such as sattools <small>5</small> and stvid <small>6</small>, and incorporation of these code-bases and the storage of the raw data in IPFS could allow for third-party verification and machine-learning assistance of verification of observations, as well as contributing to better results as a result of an increasingly large training dataset. Separately, itprovides an opportunity for non-observing laypersons to contribute to the effort merely by volunteering to serve as an IPFS node for the TruSat data, similar in style to how “SETI-at-Home” and now the Berkeley Open Infrastructure for Network Computing (BOINC) application allows individuals to donate their spare computing sources towards scientific computation pursuits.
 
@@ -100,13 +100,13 @@ Workflows which include a raw astrometry dataset also provide for the opportunit
 
 Further discussion of the utility of utility of Traceability and auditable data will be discussed in the section relating to Attack Vectors below.
 
-### III.A.5. Object Priority
+### Object Priority
 
 TruSat’s mechanisms for prioritizing specific objects for priority observation are central to its utility as a sustainability tool. To-date, the amateur satellite observation community has loosely coordinated observations by email threads, often in connection with new launches of interesting payloads, or with objects that have been a subject of conversation in the community. While TruSat welcomes satellite observations made according to the personal interests and priorities of its observers, itintroduces new functionality for communicating the System’s highest priorities for observation to its user community, and incentivizing observation of those objects.
 
 Two mechanisms for prioritizing observations are presently contemplated: (1) manual inputs from the space sustainability community (initially via the TruSat Partners) to align observation priorities with that communities data needs; and (2) automated prioritization to increase confidence in orbital predictions.
 
-#### III.A.5.a. TruSat Missions: Manual Inputs from Space Sustainability Community
+#### TruSat Missions: Manual Inputs from Space Sustainability Community
 
 TruSat’s Mission functionality, which will be introduced for testing in the v0.2 release later in Q4 2019,enables space sustainability advocates to task the TruSat system to obtain data needed for sustainability applications. For example:
 
@@ -118,7 +118,7 @@ Whereas in the v0.2release such taskings will be facilitatedby the TruSatPartner
 
 Each manual tasking creates a Mission: a satellite prioritized for sustainability purposes, with a brief explanation of the significance of the Mission. From this context, individual satellite observers may choose whether or not to participate in the Mission by observing the specified satellite. Whereas the v0.2release will depend on the intrinsic motivation of observers to contribute to space sustainability ends, subsequent releases may introduce extrinsic motivators, including digital “mission patches” unique to each mission, and other inducements appealing to observer’s sporting sensibilities including possible use token-staked bounties which could carry monetary/marketplace value.
 
-#### III.A.5.b. Automated Prioritization
+#### Automated Prioritization
 
 Separate and apart from “TruSat Missions” functionality, TruSat automatically identifies priorities for observation to increase the confidence of orbital predictions. Below are several factors that TruSat will utilize in developing a priority of an object
 
@@ -130,7 +130,7 @@ TruSat will be able to provide a list of priority-interest objects on a global p
 
 Details of the Object Priority algorithm are being finalized for the 0.1 release of the PofSat engine, and will be fully detailed in the source code in the TruSat software repository and in accompanying documentation.
 
-## III.B. Confidence Factors Applied
+## Confidence Factors Applied
 
 The scenarios that follow serve to illustrate how the confidence factors are applied by the Proof of Satellite engine to mediate its best estimate of objective orbital truth.
 
@@ -149,19 +149,19 @@ Use Case Summary:
 - New observation of a low-confidence object
 - New low-ranked observation of a “verified” object
 
-### III.B.1. Verified Object (3), New Observation
+### Verified Object (3), New Observation
 
 Situation: A demonstrated consistent TruSat user looks for an object ranked “(3) Verified” and is able to find it based on the orbit prediction. She submits one or more observations with the object’s observed location and time. Her observation correlates well with prior observations. She is also located a large distance from other reporting observers, and the object now has observations from three countries over 24 hours.
 
 Resolution: The new observation is used to refine the orbit prediction, object is upgraded to “(4) High Confidence”, and put (lower) in the priority queue for other users to routinely update and maintain confidence.
 
-### III.B.2. High Confidence Object (4), New Data from Operator
+### High Confidence Object (4), New Data from Operator
 
 Situation: A wallet (blockchain-secured account credentials) associated with the operator of a satellite provides its own tracking and telemetry data based on on-board GPS measurements for a “(3) Verified” or higher object. Their data correlates well with other users’ observations.
 
 Resolution: The new observation data is used to refine the orbit prediction with increased weighting, object is upgraded to “(5) Highest Confidence”, and put (lowest) in the priority queue.
 
-### III.B.3. Plausible or Higher Object (2+), New (poor quality) Observation
+### Plausible or Higher Object (2+), New (poor quality) Observation
 
 Situation: A new TruSat user submits an observation which appears to correlate to a catalog satellite. However, (as yet) unknown to the system, the user’s clock was wrong, their GPS position was off, or there was otherwise an error in their data which caused the orbit to be made less accurate.
 
@@ -169,25 +169,25 @@ Resolution: The new observation data is used to refine the orbit prediction, obj
 
 There is an opportunity in statistical analyses of observations to provide user feedback based on certain observables -in this case, a persistent bias in their observations and potential remedies to correct it. TruSat also provides a new capability for a user to see their observations along-side other users’ observations for direct feedback on their performance relative to other users observing the same object.
 
-### III.B.4. Known Object not in TruSat Catalog, New Observer:
+### Known Object not in TruSat Catalog, New Observer:
 
 Situation: A new TruSat user contributes data which cannot beautomatically correlated with an object currently in the database via user-specified NORAD number and/or International Designation. The designation however is on-record with the Celestrak SATCAT which TruSat periodically incorporates.
 
 Resolution: The object is included in the catalog, confidence level is set to “(1) Neutral” and object is flagged for follow-up by other observers.
 
-### III.B.5. Known Object not in TruSat Catalog, High Performing Observer
+### Known Object not in TruSat Catalog, High Performing Observer
 
 Situation: A well-ranked TruSat user contributes datawhich cannot be automatically correlated with an object currently in the database via user-specified NORAD number and/or International Designation. The designation however is on-record with the Celestrak SATCAT which TruSat periodically incorporates.
 
 Resolution: The object is included in the catalog, confidence level set to “(2) Plausible” and object is flagged for follow-up by other observers.
 
-### III.B.6. Previously unknown object:
+### Previously unknown object:
 
 Situation: A TruSat user contributes data which cannot be automatically correlated with an object currently in the database based on orbital characteristics derived from 2 or more observation data points, using an “analyst” designation to represent its unidentified (UNID) status.
 
 Resolution: The object is included in the catalog, assigned a unique (hexidecimal) catalog number, recorded at a “(1) Neutral” confidence level and is flagged for followup by other observers.
 
-### III.B.7. Unverified (1) or Plausible Object (2), New Observation
+### Unverified (1) or Plausible Object (2), New Observation
 
 Situation: A well-ranked TruSat user looks for an object ranked “(1) Neutral” or “(2) Plausible”, is able to find it based on the orbit prediction and submits an observation.
 
@@ -195,7 +195,7 @@ Resolution: The new observation is used to refine the orbit prediction, and is u
 
 **_Caveat -An observer can’t verify their own observation. If they discovered it, and later (a day, a week) observe it again, the orbit is refined, but the ranking remains “(2) Plausible” until a third party observes it._**
 
-### III.B.8 New low-ranked observation of a Verified (3) object
+### New low-ranked observation of a Verified (3) object
 
 Situation: A low-ranked TruSat user submits an object of a verified object. This object may have previously held a higher confidence ranking, but was demoted by the system after passage of too much time.
 
@@ -205,7 +205,7 @@ In the TruSat roadmap, several of these use case may be “upgraded” with the 
 
 Details of the Object Confidence algorithm are being finalized for the 0.1release of the PofSat engine, and will be fully detailed in the source code in the TruSat software repository and in accompanying documentation.
 
-## III.C. Mitigating Attack Vectors
+## Mitigating Attack Vectors
 
 As a decentralized, automated system, the PofSat engine must protect itself against attack vectors ranging from erroneous observations from naïve or inexperienced users to malicious attempts to exploit the open and permission-less nature of the catalog in order to disrupt service, or to skew or corrupt the data.
 
@@ -221,7 +221,7 @@ List of Attack Vectors currently contemplated:
 - User Phishing or account take-over attacks
 - DDOS attacks
 
-### III.C.1.Single Incorrect (or Falsified) Observation of a Verified Object
+### Single Incorrect (or Falsified) Observation of a Verified Object
 
 Situation: A user “falsely reports” an observation. They could do so by making up an observation from scratch, or by submitting a modified version of an observation from another user or attempting to submit another user’s observation as their own.
 
@@ -233,7 +233,7 @@ Options from this point would be to simply discard the object, flag the user in 
 
 In the TruSatroadmap, incorporation of user-submitted raw-data would help provide more option paths for an object which does not plausibly-map to an existing catalog object; although, then defense against “deep fake observations” would need to be developed.
 
-### III.C.2.Single Falsified Observation of a New Object
+### Single Falsified Observation of a New Object
 
 Situation: A TruSat user “falsely reports” an observation. They could do so by making up an observation from scratch or by submitting an existing observation but change the object number they are reporting against.
 
@@ -254,7 +254,7 @@ Here too, using TruSat’s anticipated roadmap capability of submitting photogra
 
 As mentioned previously, geographic diversity and KYC checks on origin or faction could provide unrelated limits to the reach of these nefarious activities.
 
-### III.C.3.Coordinated False Reporting on an Object (Positive)
+### Coordinated False Reporting on an Object (Positive)
 
 Situation: Extending the case in I.D.3.b to a coordinated effort by multiple users to create a record for an object which does not exist, multiple TruSat users submit self-consistent observations for a fictitious object, or alternatively, self-consistent observations for an existing object in an attempt to skew TruSat’s estimate of its orbit.
 
@@ -266,13 +266,13 @@ Here, the user rank of these nefarious users would have low weight along-side th
 
 Here again, supplying source observation data in image format would increase the difficulty in achieving a “fake.”
 
-### III.C.4. Coordinated False Reporting on an Object (Negative)
+### Coordinated False Reporting on an Object (Negative)
 
 Situation: This case concerns itself with a ill-intended TruSat user trying to achieve an object being “demoted” from the catalog by submitting poor or negative observation records.
 
 Resolution: In addition to the normal feedback loop from sourcing user rank in the promotion or demotion of object confidence, in this case, any positive confirmation by a well-ranking positive-intent user would quickly re-introduce the demoted object into the catalog. Communications and coordination by the community and these positive representatives in the community could highlight the object as a priority observation target, and the system design could continue to keep the object in the catalog.
 
-### III.C.5 Code injection attacks on server
+### Code injection attacks on server
 
 Situation: Leveraging the open-source repositories of the TruSat project, the user infiltrates the operating code and incorporates their malicious version in the operating PofSat engine.
 
@@ -280,7 +280,7 @@ Resolution: The approved/validated code-base would be file-checksummed and logge
 
 As we implement the TruSat roadmap, vulnerability to this type of attack will decrease, as it will become more decentralized, and the attacks would need to take place on a large fraction of the nodes in the system.
 
-### III.C.6. User Phishing or account take-over attacks
+### User Phishing or account take-over attacks
 
 Situation: Someone with ill-intent attempts to acquire access to a well-ranked user in order to achieve actions only possible with higher-ranking users.
 
@@ -288,13 +288,13 @@ Resolution: The implementation of public/private key cryptography, and the secur
 
 To obtain the private keys of the user, the attacker would need to perform an attack that can access user’s local storage, gain access to their email and password, or perform a standard phishing attack. To guard against unauthorized access to local storage, users will be encouraged to switch their account management to Metamask. Finally, a phishing attack can be performed by tricking a user that they are in a safe environment when providing their credentials, this can be addressed by using a unique identifier that the user can check against in order to verify they are safe. Once switched to an established, trusted, environment such as a phone application or decentralized platform, this should no longer be a concern. All the key management will be performed by the user and their device without exposing anything externally.
 
-### III.C.7. DDOS attacks
+### DDOS attacks
 
 Situation: Ill-intended parties attempt to deny availability of the TruSat service by overwhelming its servers.
 
 Resolution: In the initial release, which relies on Web 2 services, this exists as a vulnerability. Upon transitioning more fully into an Ethereum mainnet solution later in our roadmap, TruSat looks to decentralize the catalog itself, as well as the server processes which interact and add data to the system.
 
-## III.D. Data Inputs and Outputs
+## Data Inputs and Outputs
 
 With its v0.1 release, TruSat will securely store visual position observations, which are fed into the Proof of Satellite engine to generate satellite ephemeris, to be distributed in the two-line element (“TLE”) format. To support the workflow, the catalog will also contain basic contextual information retrieved from public sources <small>7</small> as well as information required to uniquely identify user accounts, their observation locations, and user performance data to support the automated generation of satellite ephemeris from updated observations.
 
@@ -310,7 +310,7 @@ Predictions in the catalog will be represented in Two Line Element (TLE) <small>
 
 Because of their ubiquitous use, TruSat project will produce predictions in compliance with this standard, and be prepared to follow, and potentially lead in efforts to modernize the format and its use.
 
-## III.E. Tuning the Proof of Satellite Engine
+## Tuning the Proof of Satellite Engine
 
 For visual position observations, TruSatis building on the 25 years of publicly available work from the all-volunteer SeeSat Visual Satellite Observer organization <small>11</small>. The SeeSat website contains extensive information about the hobby of visual satellite observation, including techniques for finding faint objects, making positional observations, as well as characterizing the visual brightness and time-varying visual properties. The SeeSat community is notable for distributing TLEs for satellites which are not available in the public US STRATCOM satellite catalog, typically classified satellites, operated by the United States and its allies.
 
@@ -322,7 +322,7 @@ In our initial release, TruSat and its technical advisors will be making choices
 
 ConsenSys Space will continue to tune the Proof of Satellite engine following the initial release, and will make all algorithms publicly available.
 
-## III.F. Open Source Algorithm Updates
+## Open Source Algorithm Updates
 
 TruSatis being architected and implemented in an open and modular way. We anticipate that there are likely “better” ways to achieve each portion of the TruSat engine than we are initially implementing, and there will likely be innovations realized by innovators and contributors throughout the world over time. In addition to supplying data to TruSat, we anticipate the possibility of network users/members to supply “pull requests” for engine algorithm updates. This could be as small as a suggested tuning of a variable, to as complex as a complete rewrite of a particular part of the process.
 
@@ -330,7 +330,7 @@ We hope that the system can allow for the open dataset and open source to be use
 
 We anticipate the first opportunity to implement options such as these would present themselves in the second stage of our roadmap, when we are transitioning on EthereumMainNet, and can take advantage of the security of the “store of value” functionality provided by Ethereum.
 
-## III.G. Identity and Privacy
+## Identity and Privacy
 
 Privacy by default is a core design choice made in architecting the TruSat software. In the default settings, an Ethereum address and some observation history data will be the only information about a contributor viewable by other users of the System. Contributors will have the option to reveal more information, including their username and location (e.g., “India” or “San Francisco, USA”) , as well as the option to remove their identity and observation contributions entirely from the network.
 

@@ -4,11 +4,11 @@ title: TruSat as a Space Sustainability Tool
 sidebar_label: TruSat as a Space Sustainability Tool
 ---
 
-## II. TruSat as a Space Sustainability Tool
+## TruSat as a Space Sustainability Tool
 
 This section introduces the challenges to the long-term sustainability of spaceflight, and locates TruSat within an emerging space sustainability ecosystem.
 
-### II.A. Transparency and Trust Challenges to Space Sustainability
+### Transparency and Trust Challenges to Space Sustainability
 
 Space sustainability is about preserving the use of outer space, and all of its socioeconomic benefits, for present and future generations. The primary threat to the long-term usability of space is Earth-orbital debris: non-functional spacecraft, pieces of spacecraft discarded in the course of space missions, and fragments from collisions between spacecraft, and from spacecraft destroyed by weapons tests. While outer space is infinitely large, the orbital positions around Earth suitable for the myriad space applications on which we depend are finite and increasingly congested.
 
@@ -30,7 +30,7 @@ As a practical matter, third party liability for collisions in orbit is predicat
 
 To summarize the problem space to which TruSat is addressed: a tenfold increase in the LEO satellite population will increase the frequency of conjunctions (i.e., predictions that satellites will pass close enough to present a collision risk), and thus the frequencyof operators’ business decisions whether or not to maneuver to avert collisions. The true costs of a collision are not accounted for in operators’ decision calculus because it is exceedingly unlikely that a private satellite operator would bear the costsof to third parties of a collision under the international legal framework for space, as presently implemented. Among the practical reasons for this externality are the absence of an accessible source of SSA data trusted by all parties to determine faultin a collision. Given this remote possibility of liability to third parties, insulating private satellite operators from the true costs of collisions, and the costs to operators of maneuvers, operators may find an incentive to “roll the dice,” gambling with the long-term sustainability of outer space, rather than to execute a precautionary maneuver.
 
-### II.B.The Emerging Space Sustainability Ecosystem
+### The Emerging Space Sustainability Ecosystem
 
 As explained in the foregoing section, the space liability framework does not supply sufficient incentivesfor an operator faced with a conjunction warning to resolve uncertainty in favor of a precautionary maneuver. At present, the court of public opinion may be closer to minds of satellite operators weighing a maneuver than a court of law or arbitral tribunal. With public awareness of space sustainability challenges rising with the advent of “mega-constellations,” constellation operators in particular are touting their sustainability practices, for public relations purposes, and possibly also to preempt theconcerns of their regulators. <small>12</small> This desire on the part of satellite operators—soon to be competing for internet customers—to positioning their brands as responsible, sustainable stewards of the space environment, may prove to be a more potent lever for bringing the incentives of satellite operators into alignment with the collective interest in the long-term sustainability of outer space.
 
@@ -49,7 +49,7 @@ The efficacy of voluntary space sustainability standards as an incentive for res
 
 The missing ingredient in this emerging space sustainability ecosystem is a widely-trusted source of data suitable for assessing orbital operations against sustainability standards. As explained in Section II.A., U.S. Government SSA data suffers the same trust deficit as any SSA data sourced from a single national government, and the Government reserves the right to restrict its use. Private commercial providers of SSA data rely on satellite operators for their revenue and do not have incentives for calling out non-conforming orbital behavior. TruSat is designed to fill this gap through a new approach to SSA uncoupled from government or commercial interests.
 
-### II.C.TruSat as a New Approach to Transparency and Trust in SSA
+### TruSat as a New Approach to Transparency and Trust in SSA
 
 To fill the trusted data gap, TruSat is designed to enable space sustainability advocates to task a global network of citizen satellite observers to track satellites of interest, utilizing ubiquitous consumer hardware, and to assemble observations from around the planet into a trusted record of orbital positions suitable for measuring orbital behavior against sustainability standards. Whereas the initial releases of TruSat are an experiment in producing reliable orbit predictions from amateur visual observations, the TruSat architecture is sensor-agnostic and could support inputs from a range of academic, commercial, or governmental institutions. The TruSat System comprises three elements:
 
@@ -59,7 +59,7 @@ To fill the trusted data gap, TruSat is designed to enable space sustainability 
 
 Community-sourcing orbital object location data through visual observations of satellites is not new. In fact, Operation Moonwatch, a global citizen-science initiative to track the first artificial satellites at the dawn of the space age, was the original SSA network. <small>19</small> More recently, the SeeSat community has been tracking satellites fordecades—with tools ranging from binoculars and a stopwatch to relatively advanced digital camera equipment—and posting the angles-only visual observations (“IOD” or other reporting formats) to an internet mailing list. <small>20</small> TruSat is designed to scale this method of satellite tracking from hobby to a source of truth in orbital behavior trusted by all space actors. What is most fundamentally new about TruSat is its open, decentralized, and automated architecture designed to remedy the trust challenges of existing public sources of SSA data. TruSat’s trust architecture is summarized by comparison to existing SSA sources in the subsection that follows, and detailed in Section III.
 
-#### II.C.1. Leveraging Blockchain Technology in Service of Openness, Transparency, and Trust
+#### Leveraging Blockchain Technology in Service of Openness, Transparency, and Trust
 
 The trust deficit of existing sources of SSA data, as applied to space sustainability applications, results from the combination of two attributes. First, as the data is controlled by a single government or business, from sensor to analysis, trustin the results is limited to trust in that institution. The application of SSA data to assessing compliance with sustainability standards presents a more difficult trust equation than the case of a satellite operator keeping planning a maneuver. The latter may have built up confidence and trust in given SSA data providers over the course of a long working relationship, and have access to multiple sources of SSA data to verify accuracy. The legitimacy of sustainability standards assessment, by contrast, rests on trust by a much broader, global set of stakeholders. Finding a single institution trusted by all stakeholders in all cases borders on impossible. Irrespective of an institution’s track record for accurate results, perceptions of institutional interests in a given case can undermine trustin the data produced by that institution. Compounding this structural trust challenge is the reality that the proprietary nature of SSA systems—with many utilized primarily for national security missions—does not permit independent verification of the results.
 
@@ -69,7 +69,7 @@ In the absence of an institution trusted by all stakeholders to the orbital posi
 
 The inputs of ConsenSys Space and the TruSat Partners are limited to refining the software and communicating space sustainability observation priorities, in accordance with the TruSat Charter (see Section IV, TruSat Governance). The source code for each update to TruSat’s codebase will be available in the TruSat software repositories, ensuring the transparency of the algorithms in effect. While TruSat does not permit human input in processing satellite observations into orbit predictions, the System does rely on human input to make and report satellite observations. Section III.C. details attack vectors ranging from malicious attempts to influence orbital position data to erroneous observations, and how the TruSat software is designed to mitigate the influence of such inputs.
 
-#### II.C.2. A Toolset for Measuring Orbital Behavior against Sustainability Standards
+#### A Toolset for Measuring Orbital Behavior against Sustainability Standards
 
 The easiest sustainability application for TruSat, as presently conceived, is probably verifying post-mission disposal requirements. Many regulatory authorities require that satellites in geosynchronous orbit be raised to a so-called “graveyard” orbit at the end of their useful life, to reduce the potential for collision.More recently, with the advent of “mega-constellations” comprising thousands of satellites in low Earth orbit (“LEO”), regulatory authorities have required operators to place satellites in a disposal orbit--from which the satellite will re-enter Earth’s atmosphere and burn up within one year--at the end of theiroperational life.Beyond regulatory requirements, post-mission disposal standards are likely to form part of voluntary sustainability standards.
 

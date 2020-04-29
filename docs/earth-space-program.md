@@ -4,9 +4,9 @@ title: Earth Space Program
 sidebar_label: Broader Vision
 ---
 
-## VI. Broader Vision
+## Broader Vision
 
-### VI.A. The Guiding Vision of Earth’s Space Program
+### The Guiding Vision of Earth’s Space Program
 
 The exploration and development of outer space interests a great many people across our planet and yet is accessible to few. Even as more countries than ever before field space missions, opportunities to participate in space endeavors are concentrated in a small handful of institutions, in a smaller handful of countries, and limited to relatively narrow range of professional disciplines. As a consequence, human space endeavors benefit from only a fraction of the ideas, talents, and financial capital seeking to contribute.
 
@@ -18,7 +18,7 @@ The Ethereum blockchain presents a new technological foundation on which to buil
 
 As explained below, TruSat is a first step—a set of experiments in Earth-scale collective action—on the path to Earth’s Space Program.
 
-### VI.B. Diversifying, Democratizing, and Decentralizing Space Endeavors
+### Diversifying, Democratizing, and Decentralizing Space Endeavors
 
 Embodied in the vision of Earth’s Space Program are imperatives to diversify, democratize, and decentralize space endeavors.
 
@@ -28,7 +28,7 @@ To **democratize** space endeavors is to make them accessible to anyone with a d
 
 To **decentralize** space endeavors is to apply space mission engineering practices to the institutions that carry them out. No company, government, or other institution is a single point of failure. To engineer a space program for multi-generational progress, it must be decentralized for resilience; to insulate long-term strategic planning on an Earth scale from shifting political and economic winds in individual countries.
 
-### VI.C.TruSat as an Experiment in Diversifying, Democratizing, and Decentralizing Space Endeavors
+### TruSat as an Experiment in Diversifying, Democratizing, and Decentralizing Space Endeavors
 
 TruSat is an experiment in bottom-up, Earth-scale collaboration to produce a result that heretofore required exquisite, expensive sensor networks. For individuals impatient with the halting pace of intergovernmental cooperation on space sustainability, it will provide opportunities to take direct, concrete action; to be a part of the solution. With its Proof of Satellite software engine and open, transparent architecture, TruSat can assemble individual satellite observations, which would not be of much use in isolation, into a trusted source of truth on orbital location; an unprecedented space sustainability tool.
 
