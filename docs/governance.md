@@ -38,7 +38,7 @@ This Epoch 2.0 iteration of the TruSat Charter marks a transition from a project
 
   - Have a vision for something beyond the current open Issues? Fantastic! The [TruSat Roadmap](roadmap.md), which sets forth the functionality and programs the community aspires to develop in the long run, is a good place to begin. Many important items in the Roadmap haven’t yet been prioritized as issues because the community has not yet had Contributors with the expertise and inclination to build them. But don’t feel limited to the Roadmap; the community has not thought of everything.
 
-  - If you have an idea for a new feature or initiative and you’re willing to lead its creation, make a Proposal by creating a new issue in the appropriate TruSat repository on GitHub with [Proposal] in the title (example: [Proposal]: creating educational materials for teachers). You may find collaborators through the community discussion that follows. [(See Section 4)](/docs/trusat-charter#section-4-discussion-and-voting).
+  - If you have an idea for a new feature or initiative and you’re willing to lead its creation, make a Proposal by creating a new issue in the appropriate TruSat repository on GitHub with [Proposal] in the title (example: [Proposal]: creating educational materials for teachers). You may find collaborators through the community discussion that follows. [(See Section 3)](/docs/trusat-charter#section-3-planning-coordination--approval).
 
   - If you have an idea for a new feature or initiative that you’re not in a position to create, please share it in the Ideas thread of Discuss.TruSat.org.
 
