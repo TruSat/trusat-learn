@@ -66,27 +66,6 @@ class Footer extends React.Component {
             >
               Discord Chat
             </a>
-            <a
-              href="https://twitter.com/Consensys_Space"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Twitter
-            </a>
-            <a
-              href="https://www.instagram.com/consensys_space/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://www.consensys.space"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              ConsenSys Space
-            </a>
           </div>
           <div>
             <h5>More</h5>
