@@ -85,6 +85,7 @@ We’ve identified this as the highest-leverage feature to increase accessibilit
 1. [ ] Parallelized processing for super-compute applications
 
 # 3. Decentralized Trust Architecture
+Read [here](roadmap-decentralization) for more notes on decentralizing TruSat.
  
 **Ethereum Mainnet Features**
 - On-chain transactions for (up to) every observation block, and associated TLE prediction update.
