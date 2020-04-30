@@ -16,15 +16,27 @@ You can see what the community is working on in TruSat’s GitHub.  Anyone is in
 If you have an idea for a new feature or initiative and you’re willing to lead its creation, make a Proposal by creating a new issue in the appropriate TruSat repository on GitHub with [Proposal] in the title. More guidelines for submitting Ideas and Proposals can be found in the TruSat [Charter](https://learn.trusat.org/docs/trusat-charter).
 
 # 1. Accessibility
-**Automated image processing and IOD extraction from DSLRs**
-We’ve identified this as the highest-leverage feature to increase accessibility and increase the volume of observation submissions.
+**Automated image processing and IOD extraction from photos**
+We believe this is the highest-leverage way to increase the accessibility of satellite tracking, and to increase the volume of observations. 
+
+Much of what is needed to integrate automated IOD extraction from digital camera images
+appears to be available in Cees Bassa’s sattools/stvid open-source code):
 - Receive image frame from a registered user (known location)
-(Repeat) Plate-solving
+- (Repeat) Plate-solving
 - Perform feature detection of image/image series, looking for known/expected objects based on user capability profile
 - Optionally, perform further algorithmic exploration of unidentified objects (UNIDs)
 - Extract position/time information, or verify the efficacy of user-provided IOD/UK/RDE-formatted position observation
-- For each IOD Cross-Correlate existence of IOD object, with database state vectors (TLE, or more detailed internal format)
-(much available within Cees Bassa’s sattools/stvid open-source code):
+- Cross-Correlate existence of IOD object, with database state vectors (TLE, or more detailed internal format)
+
+A waypoint on the path towards a fully automatated image processing pipeline would be a tool that:
+- Allows observers to upload their satellite photos
+- Plate-solves with the help of the API at http://nova.astrometry.net/
+- Provides a web interface for people to mark the x/y pixel coordinates of a satellite within the photo
+- Generates an IOD from the extracted above.
+
+[Here is a UX prototype](https://www.figma.com/proto/LEL9dzD9uC3NRstzF26SF7/TruSat---Image-submission-UX?node-id=63%3A3210&scaling=scale-down) of this feature.
+
+Note: The person marking the satellite's x/y coordinates does not need to be the photographer. If the web interface provides a [Zooniverse](https://www.zooniverse.org/projects/zookeeper/galaxy-zoo/)-like queue of photos, this could help separate concerns between astrophotographers dumping photos containing satellites, and citizen scientists volunteering time to identify satellites (like with Zooniverse). 
  
 **Pass prediction**
 - Creates a table of upcoming and potentially visible objects based on a  User’s station location and Heaven’s Above pass prediction data.
