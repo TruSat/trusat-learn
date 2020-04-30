@@ -4,7 +4,7 @@ title: Decentralizing TruSat
 sidebar_label: Decentralizing TruSat
 ---
 
-In its initial prototype releases, TruSatwill implemented three features of blockchain functionality.
+In its initial prototype releases, TruSat will implemented three features of blockchain functionality.
 
 - **A.** User identity via wallet-based login, and the associated Web3 onboarding opportunity.
 - **B.** Registering of “authenticated” versions of code and algorithm base in the runtime code.
