@@ -4,17 +4,18 @@ title: Decentralizing TruSat
 sidebar_label: Decentralizing TruSat
 ---
 
-In its initial prototype releases, TruSat will implemented three features of blockchain functionality.
+In its initial prototype releases, TruSat will implement the following feature of blockchain functionality:
 
 - **A.** User identity via wallet-based login, and the associated Web3 onboarding opportunity.
-- **B.** Registering of “authenticated” versions of code and algorithm base in the runtime code.
-- **C.** Periodic consistency checking of tamper evidence by comparing with blockchain checkpoints for code-base and data-base.
 
 After implementing these basic features, and demonstrating the broader utility and value of the [Proof of Satellite](proof-of-sat) engine, a transition to Ethereum mainnet will enable more advanced features:
 
-- 1. On-chain transactions for (up to) every observation block, and associated TLE prediction update.
-- 2. On-chain stores of value (reputation, incentives, NFTs, etc.).
-- 3. State-channel object storage (TLEs, algorithms, meta-data, etc.).
+- 1. Registering of “authenticated” versions of code and algorithm base in the runtime code.
+- 2. Periodic consistency checking of tamper evidence by comparing with blockchain checkpoints for code-base and data-base.
+- 3. On-chain transactions for (up to) every observation block, and associated TLE prediction update.
+- 4. On-chain stores of value (reputation, incentives, NFTs, etc.).
+- 5. State-channel object storage (TLEs, algorithms, meta-data, etc.).
+
 
 
 #### Decentralizing the System and its Governance
