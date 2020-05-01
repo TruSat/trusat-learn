@@ -12,9 +12,10 @@ After implementing this basic feature, and demonstrating the broader utility and
 
 - 1. Registering of “authenticated” versions of code and algorithm base in the runtime code.
 - 2. Periodic consistency checking of tamper evidence by comparing with blockchain checkpoints for code-base and data-base.
-- 3. On-chain transactions for (up to) every observation block, and associated TLE prediction update.
-- 4. On-chain stores of value (reputation, incentives, NFTs, etc.).
-- 5. State-channel object storage (TLEs, algorithms, meta-data, etc.).
+- 3. Improve user privacy by decentralizing the storage of station location data and implementing a system whereby only the "Proof of Satellite" algorithim can read the data to update TLEs.
+- 4. On-chain transactions for (up to) every observation block, and associated TLE prediction update.
+- 5. On-chain stores of value (reputation, incentives, NFTs, etc.).
+- 6. State-channel object storage (TLEs, algorithms, meta-data, etc.).
 
 
 
