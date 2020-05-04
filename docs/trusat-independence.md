@@ -1,7 +1,7 @@
 ---
 id: trusat-independence
-title: TruSat's Decleration of Independence
-sidebar_label: Decleration of Independence
+title: TruSat's Declaration of Independence
+sidebar_label: Declaration of Independence
 ---
 
 ### Tl;dr: 
